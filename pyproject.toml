@@ -6,7 +6,15 @@ readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
     "ipykernel>=7.1.0",
+    "ipywidgets>=8.1.8",
+    "langchain>=1.2.2",
+    "langchain-text-splitters>=1.1.0",
+    "llama-index>=0.14.12",
     "matplotlib>=3.10.8",
     "numpy>=2.4.0",
+    "pandas>=2.3.3",
     "pdfplumber>=0.11.8",
+    "rich>=14.2.0",
+    "sentence-transformers>=5.2.0",
+    "tqdm>=4.67.1",
 ]
