@@ -1,0 +1,92 @@
+[
+  {
+    "query_id": 1,
+    "query": "severe throat pain while swallowing with dark red swollen tonsils",
+    "expected_sections": ["Throat"],
+    "best_remedy": "PHYTOLACCA DECANDRA"
+  },
+  {
+    "query_id": 2,
+    "query": "diphtheria like sore throat with gland swelling and painful swallowing",
+    "expected_sections": ["Throat"],
+    "best_remedy": "MERCURIUS IODATUS RUBER"
+  },
+  {
+    "query_id": 3,
+    "query": "ulcerated inflamed throat with uvula swelling and burning pain",
+    "expected_sections": ["Throat"],
+    "best_remedy": "MERCURIUS CORROSIVUS"
+  },
+  {
+    "query_id": 4,
+    "query": "difficulty swallowing solid food with dark red tonsils and sore mouth",
+    "expected_sections": ["Throat", "Mouth"],
+    "best_remedy": "BAPTISIA TINCTORIA"
+  },
+  {
+    "query_id": 5,
+    "query": "burning throat pain with pus and false membrane",
+    "expected_sections": ["Throat"],
+    "best_remedy": "ANTIPYRINUM"
+  },
+  {
+    "query_id": 6,
+    "query": "black irregular menstrual bleeding with faintness",
+    "expected_sections": ["Female"],
+    "best_remedy": "NUX VOMICA"
+  },
+  {
+    "query_id": 7,
+    "query": "irritable mind with oversensitivity to noise light and touch",
+    "expected_sections": ["Mind"],
+    "best_remedy": "NUX VOMICA"
+  },
+  {
+    "query_id": 8,
+    "query": "burning stomach pain with sour vomiting and coffee intolerance",
+    "expected_sections": ["Stomach"],
+    "best_remedy": "NUX VOMICA"
+  },
+  {
+    "query_id": 9,
+    "query": "burning stomach pain relieved by cold application with fever",
+    "expected_sections": ["Stomach"],
+    "best_remedy": "NYCTANTHES ARBOR TRISTIS"
+  },
+  {
+    "query_id": 10,
+    "query": "red sand in urine with kidney cramps and ureter pain",
+    "expected_sections": ["Urinary"],
+    "best_remedy": "OCIMUM CANUM"
+  },
+  {
+    "query_id": 11,
+    "query": "swollen painful testicle with urinary irritation",
+    "expected_sections": ["Male", "Urinary"],
+    "best_remedy": "OCIMUM CANUM"
+  },
+  {
+    "query_id": 12,
+    "query": "chronic constipation with frequent urging and incomplete stool",
+    "expected_sections": ["Stool"],
+    "best_remedy": "NUX VOMICA"
+  },
+  {
+    "query_id": 13,
+    "query": "asthma with fullness in stomach and morning breathing difficulty",
+    "expected_sections": ["Respiratory", "Stomach"],
+    "best_remedy": "NUX VOMICA"
+  },
+  {
+    "query_id": 14,
+    "query": "burning spine pain at night with bruised scapular pain",
+    "expected_sections": ["Back"],
+    "best_remedy": "NUX VOMICA"
+  },
+  {
+    "query_id": 15,
+    "query": "restless anxious headache with coated tongue and fever",
+    "expected_sections": ["Head", "Fever"],
+    "best_remedy": "NYCTANTHES ARBOR TRISTIS"
+  }
+]

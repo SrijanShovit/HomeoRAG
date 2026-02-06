@@ -1,0 +1,4002 @@
+[
+  {
+    "query_id": 1,
+    "query": "pustular eruption, leaving a bluish-red mark",
+    "expected_sections": [
+      "Skin"
+    ],
+    "best_remedy": "ANTIMONIUM TARTARICUM"
+  },
+  {
+    "query_id": 2,
+    "query": "rawness of larynx and trachea with aggravated by pressure, talking, and especially by inspiring cool air and at night",
+    "expected_sections": [
+      "Respiratory"
+    ],
+    "best_remedy": "RUMEX CRISPUS"
+  },
+  {
+    "query_id": 3,
+    "query": "tincture, to sixth potency",
+    "expected_sections": [
+      "Dose"
+    ],
+    "best_remedy": "BERBERIS VULGARIS"
+  },
+  {
+    "query_id": 4,
+    "query": "toothache in lower molars",
+    "expected_sections": [
+      "Mouth"
+    ],
+    "best_remedy": "LYCOPUS VIRGINICUS"
+  },
+  {
+    "query_id": 5,
+    "query": "mucus tough and hard with difficult breathing",
+    "expected_sections": [
+      "Respiratory"
+    ],
+    "best_remedy": "AMMONIACUM GUMMI"
+  },
+  {
+    "query_id": 6,
+    "query": "sixth potency in rheumatism with tincture in headaches",
+    "expected_sections": [
+      "Dose"
+    ],
+    "best_remedy": "SANGUINARIA CANADENSIS"
+  },
+  {
+    "query_id": 7,
+    "query": "ineffectual urging with burning pain in anus and gnawing around navel",
+    "expected_sections": [
+      "Abdomen"
+    ],
+    "best_remedy": "OLEANDER"
+  },
+  {
+    "query_id": 8,
+    "query": "pain behind pubes with difficult and frequent micturition and congestion of kidneys with dull pain in back, running down the ureters and limbs",
+    "expected_sections": [
+      "Urinary"
+    ],
+    "best_remedy": "ERYNGIUM AQUATICUM"
+  },
+  {
+    "query_id": 9,
+    "query": "pain between shoulders on swallowing with pain and stiffness in small of back and stiffness of the nape of the neck",
+    "expected_sections": [
+      "Back"
+    ],
+    "best_remedy": "RHUS TOXICODENDRON"
+  },
+  {
+    "query_id": 10,
+    "query": "aching in eyeballs with eyeballs tender and twitching of left upper lid",
+    "expected_sections": [
+      "Eyes"
+    ],
+    "best_remedy": "BADIAGA"
+  },
+  {
+    "query_id": 11,
+    "query": "crawling sensation in the tips of fingers with rheumatic pains spread over a large surface at nape of neck, loins, and extremities",
+    "expected_sections": [
+      "Extremities"
+    ],
+    "best_remedy": "RHUS TOXICODENDRON"
+  },
+  {
+    "query_id": 12,
+    "query": "tips of fingers swollen, red, feel read with when walking, limbs feel as if made of wood or glass, and would break easily and ingrowing toe nail",
+    "expected_sections": [
+      "Extremities"
+    ],
+    "best_remedy": "THUJA OCCIDENTALIS"
+  },
+  {
+    "query_id": 13,
+    "query": "itching in spots",
+    "expected_sections": [
+      "Skin"
+    ],
+    "best_remedy": "BENZOICUM ACIDUM"
+  },
+  {
+    "query_id": 14,
+    "query": "vomiting of white, opaque mucus with pain in the stomach, with constipation",
+    "expected_sections": [
+      "Stomach"
+    ],
+    "best_remedy": "KALIUM MURIATICUM"
+  },
+  {
+    "query_id": 15,
+    "query": "during full moon with cold in every form and water, washing, moist air, wet weather",
+    "expected_sections": [
+      "Modalities"
+    ],
+    "best_remedy": "CALCAREA CARBONICA"
+  },
+  {
+    "query_id": 16,
+    "query": "excitement causes mental depression with unable to sustain 'any mental effort and depressed, timid, averse to society, and afraid of being alone",
+    "expected_sections": [
+      "Mind"
+    ],
+    "best_remedy": "CONIUM MACULATUM"
+  },
+  {
+    "query_id": 17,
+    "query": "soreness on right side and tonsil",
+    "expected_sections": [
+      "Throat"
+    ],
+    "best_remedy": "RHAMNUS CALIFORNICA"
+  },
+  {
+    "query_id": 18,
+    "query": "discharge thin and watery, like raw white of egg with loss of smell and taste",
+    "expected_sections": [
+      "Nose"
+    ],
+    "best_remedy": "NATRIUM MURIATICUM"
+  },
+  {
+    "query_id": 19,
+    "query": "craves fruit, juicy and cold things, ice, salt with great weakness after vomiting",
+    "expected_sections": [
+      "Stomach"
+    ],
+    "best_remedy": "VERATRUM ALBUM"
+  },
+  {
+    "query_id": 20,
+    "query": "menses too early, short, scanty, pale, followed by great exhaustion with relieved by washing with cold water",
+    "expected_sections": [
+      "Female"
+    ],
+    "best_remedy": "ALUMINA"
+  },
+  {
+    "query_id": 21,
+    "query": "sore spot behind uvula, relieved by eating with throbbing in, and swelling of tonsils, can scarcely swallow",
+    "expected_sections": [
+      "Throat"
+    ],
+    "best_remedy": "AMMONIUM MURIATICUM"
+  },
+  {
+    "query_id": 22,
+    "query": "soft and small, size of goose-quill with rectum sore and burns",
+    "expected_sections": [
+      "Stool"
+    ],
+    "best_remedy": "CAUSTICUM"
+  },
+  {
+    "query_id": 23,
+    "query": "intercostal neuralgia with voice hoarse, larynx sore and raw",
+    "expected_sections": [
+      "Respiratory"
+    ],
+    "best_remedy": "MAGNESIUM PHOSPHORICUM"
+  },
+  {
+    "query_id": 24,
+    "query": "bilious attacks, with nausea, vertigo, and headache with sensation of something being pressed under the epigastrium",
+    "expected_sections": [
+      "Stomach"
+    ],
+    "best_remedy": "KALMIA LATIFOLIA"
+  },
+  {
+    "query_id": 25,
+    "query": "left-sided headache with vertigo with pain from left shoulder to occiput",
+    "expected_sections": [
+      "Head"
+    ],
+    "best_remedy": "EUPATORIUM PURPUREUM"
+  },
+  {
+    "query_id": 26,
+    "query": "stitches in cardiac region with tough mucus in trachea, loosened only with much hawking",
+    "expected_sections": [
+      "Respiratory"
+    ],
+    "best_remedy": "BRYONIA ALBA"
+  },
+  {
+    "query_id": 27,
+    "query": "whole ear and surrounding tissue appears to be one scab with filthy, scabby condition with tendency to form thick crust and eczema behind ears",
+    "expected_sections": [
+      "Ears"
+    ],
+    "best_remedy": "CHRYSAROBINUM"
+  },
+  {
+    "query_id": 28,
+    "query": "lump in pit of stomach with soreness and pressure over liver and acid rising",
+    "expected_sections": [
+      "Stomach"
+    ],
+    "best_remedy": "HIPPURICUM ACIDUM"
+  },
+  {
+    "query_id": 29,
+    "query": "under twelve years of age, one-fiftieth to one two-hundredth of a grain with third to thirtieth potency",
+    "expected_sections": [
+      "Dose"
+    ],
+    "best_remedy": "STRYCHNINUM PURUM"
+  },
+  {
+    "query_id": 30,
+    "query": "tongue dry or with brown sticky coating with especially grip, dysentery",
+    "expected_sections": [
+      "Stomach"
+    ],
+    "best_remedy": "QUASSIA AMARA"
+  },
+  {
+    "query_id": 31,
+    "query": "aching in teeth with feels swollen",
+    "expected_sections": [
+      "Head"
+    ],
+    "best_remedy": "PARTHENIUM HYSTEROPHORUS"
+  },
+  {
+    "query_id": 32,
+    "query": "cold air brings on all sorts of ailments",
+    "expected_sections": [
+      "Modalities"
+    ],
+    "best_remedy": "RANUNCULUS BULBOSUS"
+  },
+  {
+    "query_id": 33,
+    "query": "veins swollen with epilepsy at time of menses",
+    "expected_sections": [
+      "Female"
+    ],
+    "best_remedy": "BUFO RANA"
+  },
+  {
+    "query_id": 34,
+    "query": "congestion of uterus, prolapse, and anteversion with acrid, brown leucorrhœa",
+    "expected_sections": [
+      "Female"
+    ],
+    "best_remedy": "LILIUM TIGRINUM"
+  },
+  {
+    "query_id": 35,
+    "query": "colic, umbilical region sensitive to touch with inflation and tension of stomach and abdomen",
+    "expected_sections": [
+      "Stomach"
+    ],
+    "best_remedy": "GENTIANA LUTEA"
+  },
+  {
+    "query_id": 36,
+    "query": "ball rises in throat with sensation as if peristaltic motion were reversed, and œsophagus were driven from stomach to throat",
+    "expected_sections": [
+      "Throat"
+    ],
+    "best_remedy": "ASA FOETIDA"
+  },
+  {
+    "query_id": 37,
+    "query": "sore throat with tightness in naso-pharynx with tickling in throat and constriction in pharynx",
+    "expected_sections": [
+      "Throat"
+    ],
+    "best_remedy": "SARCOLACTICUM ACIDUM"
+  },
+  {
+    "query_id": 38,
+    "query": "iridocychitis due to traumatism with infection, and in sympathetic disease secondary to it with retinal hæmorrhage, albuminuric retinitis with hæmorrhage",
+    "expected_sections": [
+      "Eyes"
+    ],
+    "best_remedy": "NATRIUM SALICYLICUM"
+  },
+  {
+    "query_id": 39,
+    "query": "pain begins at occiput, and spreads over head and settles over eyes with vertigo from looking up and aches from fasting",
+    "expected_sections": [
+      "Head"
+    ],
+    "best_remedy": "SILICEA TERRA"
+  },
+  {
+    "query_id": 40,
+    "query": "weakness of all muscles, especially arms and legs with constricted feeling around limbs",
+    "expected_sections": [
+      "Extremities"
+    ],
+    "best_remedy": "ALUMEN"
+  },
+  {
+    "query_id": 41,
+    "query": "sudden pain, as if struck by a hammer with secretion from eyes, nose and mouth increased and tight feeling as from a band",
+    "expected_sections": [
+      "Head"
+    ],
+    "best_remedy": "TABACUM"
+  },
+  {
+    "query_id": 42,
+    "query": "skin feels tight with stiff, contracted joints, heaviness of lower limbs",
+    "expected_sections": [
+      "Extremities"
+    ],
+    "best_remedy": "GINSENG QUINQUEFOLIUM"
+  },
+  {
+    "query_id": 43,
+    "query": "accumulation of ear-wax with chronic middle-ear catarrh and words and steps re-echo",
+    "expected_sections": [
+      "Ears"
+    ],
+    "best_remedy": "CAUSTICUM"
+  },
+  {
+    "query_id": 44,
+    "query": "large doses of mother tincture are required-thirty to sixty drops, repeated several times",
+    "expected_sections": [
+      "Dose"
+    ],
+    "best_remedy": "PASSIFLORA INCARNATA"
+  },
+  {
+    "query_id": 45,
+    "query": "tincture, for inhaling with lower potencies",
+    "expected_sections": [
+      "Dose"
+    ],
+    "best_remedy": "MELILOTUS OFFICINALIS"
+  },
+  {
+    "query_id": 46,
+    "query": "throat troubles from over use of voice with can only swallow liquids and takes cold easily, with stitches and smarting pain",
+    "expected_sections": [
+      "Throat"
+    ],
+    "best_remedy": "BARYTA CARBONICA"
+  },
+  {
+    "query_id": 47,
+    "query": "periodic attacks with hoarse, with pain in larynx and cough after influenza",
+    "expected_sections": [
+      "Respiratory"
+    ],
+    "best_remedy": "KREOSOTUM"
+  },
+  {
+    "query_id": 48,
+    "query": "infant wants to nurse all the time and vomits easily with much flatulence",
+    "expected_sections": [
+      "Stomach"
+    ],
+    "best_remedy": "CALCAREA PHOSPHORICA"
+  },
+  {
+    "query_id": 49,
+    "query": "coldness with intense pallor",
+    "expected_sections": [
+      "Fever"
+    ],
+    "best_remedy": "COCAINUM HYDROCHLORICUM"
+  },
+  {
+    "query_id": 50,
+    "query": "herpetic eruptions with rash from exposure to open air",
+    "expected_sections": [
+      "Skin"
+    ],
+    "best_remedy": "SARSAPARILLA OFFICINALIS"
+  },
+  {
+    "query_id": 51,
+    "query": "hallucinations and delusions with fear of being assassinated and slow perception",
+    "expected_sections": [
+      "Mind"
+    ],
+    "best_remedy": "PLUMBUM METALLICUM"
+  },
+  {
+    "query_id": 52,
+    "query": "rheumatism alternates with nettle-rash with angioneurotic",
+    "expected_sections": [
+      "Skin"
+    ],
+    "best_remedy": "URTICA URENS"
+  },
+  {
+    "query_id": 53,
+    "query": "coldness of tip with chronic nasal and pharyngeal catarrhs and intense itching",
+    "expected_sections": [
+      "Nose"
+    ],
+    "best_remedy": "MEDORRHINUM"
+  },
+  {
+    "query_id": 54,
+    "query": "right side of nose hot with coryza and dull hearing",
+    "expected_sections": [
+      "Nose"
+    ],
+    "best_remedy": "MERCURIUS IODATUS RUBER"
+  },
+  {
+    "query_id": 55,
+    "query": "otitis media suppurativa with where silica is indicated progress is hastened by lapis",
+    "expected_sections": [
+      "Ears"
+    ],
+    "best_remedy": "LAPIS ALBUS"
+  },
+  {
+    "query_id": 56,
+    "query": "restless, with frightful dreams with nightmare, awakes languid and unrefreshed",
+    "expected_sections": [
+      "Sleep"
+    ],
+    "best_remedy": "PTELEA TRIFOLIATA"
+  },
+  {
+    "query_id": 57,
+    "query": "rhamnus purshiana-cascara sagrada–– with rhamnus cathartica or rhamnus frangula-european buckthorn- a rheumatic remedy––",
+    "expected_sections": [
+      "Relationship"
+    ],
+    "best_remedy": "RHAMNUS CALIFORNICA"
+  },
+  {
+    "query_id": 58,
+    "query": "alcoholic tremors and senile trembling with formication and numbness in hands and forearms and paralysis agitans",
+    "expected_sections": [
+      "Nervous System"
+    ],
+    "best_remedy": "COCAINUM HYDROCHLORICUM"
+  },
+  {
+    "query_id": 59,
+    "query": "incontinence and dysuria with feeling of fullness of bladder and urine greenish if acid and reddish purple if alkaline",
+    "expected_sections": [
+      "Urinary"
+    ],
+    "best_remedy": "SANTONINUM"
+  },
+  {
+    "query_id": 60,
+    "query": "cutting about navel with stitching in liver region",
+    "expected_sections": [
+      "Abdomen"
+    ],
+    "best_remedy": "BENZOICUM ACIDUM"
+  },
+  {
+    "query_id": 61,
+    "query": "eyes and lids red and inflamed with iritis, with pus in anterior chamber and boring pain in upper bones of the orbits",
+    "expected_sections": [
+      "Eyes"
+    ],
+    "best_remedy": "HEPAR SULPHUR"
+  },
+  {
+    "query_id": 62,
+    "query": "dry, hacking, tickling cough, especially at night with soreness through chest and palpitation, accompanies other symptoms",
+    "expected_sections": [
+      "Chest"
+    ],
+    "best_remedy": "OLEUM JECORIS ASELLI"
+  },
+  {
+    "query_id": 63,
+    "query": "pressure in stomach, sensation of a lump with sweat while eating",
+    "expected_sections": [
+      "Stomach"
+    ],
+    "best_remedy": "BENZOICUM ACIDUM"
+  },
+  {
+    "query_id": 64,
+    "query": "fidgety legs with unusual tired feeling",
+    "expected_sections": [
+      "Extremities"
+    ],
+    "best_remedy": "ZIZIA AUREA"
+  },
+  {
+    "query_id": 65,
+    "query": "hot, dry, itching, measle-like eruption with scarlet fever with stupor and flushed face and aids in bringing out eruption",
+    "expected_sections": [
+      "Skin"
+    ],
+    "best_remedy": "GELSEMIUM SEMPERVIRENS"
+  },
+  {
+    "query_id": 66,
+    "query": "all forms of with used as a local application and mouth wash, one dram to 8 ozs of water and dropsy are benefited with citric acid and lemon juice, tablespoonful every 3-4 hours",
+    "expected_sections": [
+      "Acid"
+    ],
+    "best_remedy": "CITRUS VULGARIS"
+  },
+  {
+    "query_id": 67,
+    "query": "violent pain in upper jaw, running from teeth through malar bones to temples with perspiration on face and head",
+    "expected_sections": [
+      "Face"
+    ],
+    "best_remedy": "ACTAEA SPICATA"
+  },
+  {
+    "query_id": 68,
+    "query": "hat pressed upon head like a heavy weight with pimples on forehead and face and aches from any over-indulgence",
+    "expected_sections": [
+      "Head"
+    ],
+    "best_remedy": "CARBO VEGETABILIS"
+  },
+  {
+    "query_id": 69,
+    "query": "dull aching in ovaries, with sensation as if menses appear with hot flashes, followed by perspiration on parts touching each other, when separated become dry",
+    "expected_sections": [
+      "Female"
+    ],
+    "best_remedy": "NICCOLUM SULPHURICUM"
+  },
+  {
+    "query_id": 70,
+    "query": "stammering speech with strong metallic, slimy taste, with flow of saliva and constant protrusion and retraction of the tongue, like a snake",
+    "expected_sections": [
+      "Mouth"
+    ],
+    "best_remedy": "CUPRUM METALLICUM"
+  },
+  {
+    "query_id": 71,
+    "query": "tincture in doses of 2 to 20 drops and attenuations",
+    "expected_sections": [
+      "Dose"
+    ],
+    "best_remedy": "ERIODYCTION CALIFORNICUM"
+  },
+  {
+    "query_id": 72,
+    "query": "roaring and ringing in ears with deafness, with vertigo",
+    "expected_sections": [
+      "Ears"
+    ],
+    "best_remedy": "SALICYLICUM ACIDUM"
+  },
+  {
+    "query_id": 73,
+    "query": "craves cold water, hungry with stomach symptoms relieved by tight clothes",
+    "expected_sections": [
+      "Stomach"
+    ],
+    "best_remedy": "FLUORICUM ACIDUM"
+  },
+  {
+    "query_id": 74,
+    "query": "hysterical attacks in tuberculous patients with heaviness of head, with sensation of weakness in muscles of nape of neck and scalp tense",
+    "expected_sections": [
+      "Head"
+    ],
+    "best_remedy": "VIOLA ODORATA"
+  },
+  {
+    "query_id": 75,
+    "query": "dysuria and spasmodic retention with frequent desire and chronic cystitis",
+    "expected_sections": [
+      "Urinary"
+    ],
+    "best_remedy": "THLASPI BURSA PASTORIS"
+  },
+  {
+    "query_id": 76,
+    "query": "aurantium-orange with citrus decumana-grape-fruit",
+    "expected_sections": [
+      "Relationship"
+    ],
+    "best_remedy": "CITRUS VULGARIS"
+  },
+  {
+    "query_id": 77,
+    "query": "dark blood from nose with feels raw and sore",
+    "expected_sections": [
+      "Throat"
+    ],
+    "best_remedy": "MERCURIUS CYANATUS"
+  },
+  {
+    "query_id": 78,
+    "query": "stabbing pain in left eye with lachrymation with pain in left frontal protuberance",
+    "expected_sections": [
+      "Head"
+    ],
+    "best_remedy": "CHIMAPHILA UMBELLATA"
+  },
+  {
+    "query_id": 79,
+    "query": "extends into and around it with pains return with great regularity",
+    "expected_sections": [
+      "Face"
+    ],
+    "best_remedy": "CHININUM SULPHURICUM"
+  },
+  {
+    "query_id": 80,
+    "query": "sanicula aqua must not be confounded with the sanicle , also called sanicula with it is used as a vulnerary, resolvent for sanguineous extravasations, and as an astringent",
+    "expected_sections": [
+      "Relationship"
+    ],
+    "best_remedy": "SANICULA AQUA"
+  },
+  {
+    "query_id": 81,
+    "query": "discharge scanty with little pain, but much heat and genitals cold and relaxed",
+    "expected_sections": [
+      "Male"
+    ],
+    "best_remedy": "GELSEMIUM SEMPERVIRENS"
+  },
+  {
+    "query_id": 82,
+    "query": "vertigo, palpitation with avoid milk when taking brom and relieves headache, tinnitus and vertigo, especially in vaso-motor stomach disturbance",
+    "expected_sections": [
+      "Relationship"
+    ],
+    "best_remedy": "BROMIUM"
+  },
+  {
+    "query_id": 83,
+    "query": "expression anxious, full of pain with puffed, red-spotted, collapsed",
+    "expected_sections": [
+      "Face"
+    ],
+    "best_remedy": "AETHUSA CYNAPIUM"
+  },
+  {
+    "query_id": 84,
+    "query": "sudden loss of consciousness with red face with fiery sexual desire",
+    "expected_sections": [
+      "Mind"
+    ],
+    "best_remedy": "CANTHARIS VESICATORIA"
+  },
+  {
+    "query_id": 85,
+    "query": "cardialgia, spasms of stomach with dyspepsia with spasmodic symptoms",
+    "expected_sections": [
+      "Stomach"
+    ],
+    "best_remedy": "CAULOPHYLLUM THALICTROIDES"
+  },
+  {
+    "query_id": 86,
+    "query": "it is claimed that the addition of a small amount of magnes with sulph to the usual hypodermic of morphine increases the value of the hypodermic from 50 to 100 %",
+    "expected_sections": [
+      "Relationship"
+    ],
+    "best_remedy": "MAGNESIUM SULPHURICUM"
+  },
+  {
+    "query_id": 87,
+    "query": "great heat and lassitude in afternoon, with throbbing throughout body",
+    "expected_sections": [
+      "Fever"
+    ],
+    "best_remedy": "LILIUM TIGRINUM"
+  },
+  {
+    "query_id": 88,
+    "query": "barber's itch with dull stitch, ending in itching and scabby, tettery eruption on hands, head, and cheeks, preceded by red, raw skin",
+    "expected_sections": [
+      "Skin"
+    ],
+    "best_remedy": "LITHIUM CARBONICUM"
+  },
+  {
+    "query_id": 89,
+    "query": "hæmoptysis, with convulsive, spasmodic cough with pain shooting down left arm and angina pectoris",
+    "expected_sections": [
+      "Chest"
+    ],
+    "best_remedy": "CACTUS GRANDIFLORUS"
+  },
+  {
+    "query_id": 90,
+    "query": "three to ten drops, even one dram doses, three times a day",
+    "expected_sections": [
+      "Dose"
+    ],
+    "best_remedy": "KOLA"
+  },
+  {
+    "query_id": 91,
+    "query": "larynx dry, voice hoarse, phonation difficult with dry cough with oppressed breathing",
+    "expected_sections": [
+      "Respiratory"
+    ],
+    "best_remedy": "DUBOISIA MYOPOROIDES"
+  },
+  {
+    "query_id": 92,
+    "query": "hepatitis, atrophic from of nutmeg liver with immediately after a light meal, abdomen is bloated, full",
+    "expected_sections": [
+      "Abdomen"
+    ],
+    "best_remedy": "LYCOPODIUM CLAVATUM"
+  },
+  {
+    "query_id": 93,
+    "query": "busy twitching of fingers with fidgety hands",
+    "expected_sections": [
+      "Extremities"
+    ],
+    "best_remedy": "KALIUM BROMATUM"
+  },
+  {
+    "query_id": 94,
+    "query": "badly smelling night-sweats with large, flat, itching pustules",
+    "expected_sections": [
+      "Skin"
+    ],
+    "best_remedy": "TAXUS BACCATA"
+  },
+  {
+    "query_id": 95,
+    "query": "suffocative breathing from dropsy of the chest with incessant, spasmodic cough, as if chest would fly to pieces",
+    "expected_sections": [
+      "Chest"
+    ],
+    "best_remedy": "LACTUCA VIROSA"
+  },
+  {
+    "query_id": 96,
+    "query": "debility, slow and lingering with yellow perspiration and alternate flashes of heat in single parts",
+    "expected_sections": [
+      "Fever"
+    ],
+    "best_remedy": "MERCURIUS SOLUBILIS"
+  },
+  {
+    "query_id": 97,
+    "query": "noises come on after patient has been up a few hours with difficult hearing, with whizzing and ringing in ears",
+    "expected_sections": [
+      "Ears"
+    ],
+    "best_remedy": "RHODODENDRON FERRUGINEUM"
+  },
+  {
+    "query_id": 98,
+    "query": "flushes readily with pits on pressure",
+    "expected_sections": [
+      "Skin"
+    ],
+    "best_remedy": "FERRUM METALLICUM"
+  },
+  {
+    "query_id": 99,
+    "query": "hot feeling on top of head with hot feeling on top of head and dreams of running water",
+    "expected_sections": [
+      "Head"
+    ],
+    "best_remedy": "NATRIUM SULPHURICUM"
+  },
+  {
+    "query_id": 100,
+    "query": "cold, clammy sweat, with great faintness with copious perspiration and intermittent fever with lethargic condition",
+    "expected_sections": [
+      "Fever"
+    ],
+    "best_remedy": "ANTIMONIUM TARTARICUM"
+  },
+  {
+    "query_id": 101,
+    "query": "first to third attenuation",
+    "expected_sections": [
+      "Dose"
+    ],
+    "best_remedy": "COCHLEARIA ARMORACIA"
+  },
+  {
+    "query_id": 102,
+    "query": "uterine hæmorrhage with aching pain through hips and thighs during climacteric and uterus heavily congested",
+    "expected_sections": [
+      "Female"
+    ],
+    "best_remedy": "STROPHANTHUS HISPIDUS"
+  },
+  {
+    "query_id": 103,
+    "query": "sore, dry, with hawking and expectoration with pain to ears",
+    "expected_sections": [
+      "Throat"
+    ],
+    "best_remedy": "ICHTHYOLUM"
+  },
+  {
+    "query_id": 104,
+    "query": "cramp, ringing cough, short breath, catching at throat with dyspnœa from constriction of chest",
+    "expected_sections": [
+      "Respiratory"
+    ],
+    "best_remedy": "LOBELIA INFLATA"
+  },
+  {
+    "query_id": 105,
+    "query": "single dose of the tincture with in epilepsy must be continued for a long time",
+    "expected_sections": [
+      "Dose"
+    ],
+    "best_remedy": "VERBENA URTICAEFOLIA"
+  },
+  {
+    "query_id": 106,
+    "query": "melancholia, with stupor with ideas confused and wild, wandering feeling",
+    "expected_sections": [
+      "Mind"
+    ],
+    "best_remedy": "BAPTISIA TINCTORIA"
+  },
+  {
+    "query_id": 107,
+    "query": "protruding here and there with anus fissured and painful to touch with warts",
+    "expected_sections": [
+      "Abdomen"
+    ],
+    "best_remedy": "THUJA OCCIDENTALIS"
+  },
+  {
+    "query_id": 108,
+    "query": "pain in ankles, wrists with pain in acute gout deltoid",
+    "expected_sections": [
+      "Extremities"
+    ],
+    "best_remedy": "URTICA URENS"
+  },
+  {
+    "query_id": 109,
+    "query": "tongue dry when awaking-coated white, without thirst, with bitter or diminished taste",
+    "expected_sections": [
+      "Mouth"
+    ],
+    "best_remedy": "PARIS QUADRIFOLIA"
+  },
+  {
+    "query_id": 110,
+    "query": "gnawing ulcerating pain with painful swelling of pit",
+    "expected_sections": [
+      "Stomach"
+    ],
+    "best_remedy": "ARGENTUM NITRICUM"
+  },
+  {
+    "query_id": 111,
+    "query": "nymphomania with feeling of protrusion and leucorrhœa green or bloody, alternate with mental symptoms and aching in sacrum",
+    "expected_sections": [
+      "Female"
+    ],
+    "best_remedy": "MUREX PURPUREA"
+  },
+  {
+    "query_id": 112,
+    "query": "offensive breath with tongue black",
+    "expected_sections": [
+      "Mouth"
+    ],
+    "best_remedy": "MERCURIUS DULCIS"
+  },
+  {
+    "query_id": 113,
+    "query": "ulcers on palate, tonsils and back of pharynx with dryness of throat and great dryness of mouth and throat, tongue feels heavy and dry, numb",
+    "expected_sections": [
+      "Mouth"
+    ],
+    "best_remedy": "MERCURIALIS PERENNIS"
+  },
+  {
+    "query_id": 114,
+    "query": "feels numb, as if made of wood with vertigo on rising, felt in occiput, as if intoxicated, or like sea-sickness",
+    "expected_sections": [
+      "Head"
+    ],
+    "best_remedy": "PETROLEUM"
+  },
+  {
+    "query_id": 115,
+    "query": "moral depravity with enlarged sensation",
+    "expected_sections": [
+      "Head"
+    ],
+    "best_remedy": "ACETANILIDUM"
+  },
+  {
+    "query_id": 116,
+    "query": "erythema, beginning on uncovered parts, on face, and spreading over whole body with skin where ulcerated remains red",
+    "expected_sections": [
+      "Skin"
+    ],
+    "best_remedy": "EUPHORBIA LATHYRIS"
+  },
+  {
+    "query_id": 117,
+    "query": "very painful with diarrhœa after a debauch and constipation, with frequent ineffectual urging, incomplete and unsatisfactory",
+    "expected_sections": [
+      "Stool"
+    ],
+    "best_remedy": "NUX VOMICA"
+  },
+  {
+    "query_id": 118,
+    "query": "sick headache with pain in facial muscles",
+    "expected_sections": [
+      "Head"
+    ],
+    "best_remedy": "ANAGALLIS ARVENSIS"
+  },
+  {
+    "query_id": 119,
+    "query": "burning and pain in nipples with bluish expectoration",
+    "expected_sections": [
+      "Respiratory"
+    ],
+    "best_remedy": "ARUNDO MAURITANICA"
+  },
+  {
+    "query_id": 120,
+    "query": "green, watery, frothy, like a frog- pond's scum with milk passes undigested in nursing children and bloody mucous stools",
+    "expected_sections": [
+      "Stool"
+    ],
+    "best_remedy": "MAGNESIUM CARBONICUM"
+  },
+  {
+    "query_id": 121,
+    "query": "sciatica with œdema of ankle with rheumatism with diarrhœa",
+    "expected_sections": [
+      "Extremities"
+    ],
+    "best_remedy": "STRONTIUM CARBONICUM"
+  },
+  {
+    "query_id": 122,
+    "query": "colic, with nausea and flatulence with frequent watery, slimy stools",
+    "expected_sections": [
+      "Abdomen"
+    ],
+    "best_remedy": "SAMBUCUS NIGRA"
+  },
+  {
+    "query_id": 123,
+    "query": "tonsils swollen and dry with red, dry, constricted, numb, prickling, burning, stinging",
+    "expected_sections": [
+      "Throat"
+    ],
+    "best_remedy": "ACONITUM NAPELLUS"
+  },
+  {
+    "query_id": 124,
+    "query": "stringy mucus with detached with difficulty and constricted and rough feeling, with a constant desire to swallow",
+    "expected_sections": [
+      "Throat"
+    ],
+    "best_remedy": "MYRICA CERIFERA"
+  },
+  {
+    "query_id": 125,
+    "query": "very rapid cough, short, barking with hawking of profuse mucus",
+    "expected_sections": [
+      "Respiratory"
+    ],
+    "best_remedy": "CORALLIUM RUBRUM"
+  },
+  {
+    "query_id": 126,
+    "query": "pressing pain on vertex, as if a nail driven in with scalp sensitive",
+    "expected_sections": [
+      "Head"
+    ],
+    "best_remedy": "NUX VOMICA"
+  },
+  {
+    "query_id": 127,
+    "query": "loss of smell with ulcers in septum",
+    "expected_sections": [
+      "Nose"
+    ],
+    "best_remedy": "ARGENTUM NITRICUM"
+  },
+  {
+    "query_id": 128,
+    "query": "desire too strong with dysmenorrhœa, with pain in sacrum, and constant urging to stool and always irregular, blood black cycl",
+    "expected_sections": [
+      "Female"
+    ],
+    "best_remedy": "NUX VOMICA"
+  },
+  {
+    "query_id": 129,
+    "query": "pain in nape with fixed pain under inner and lower angle of right scapula",
+    "expected_sections": [
+      "Back"
+    ],
+    "best_remedy": "CHELIDONIUM MAJUS"
+  },
+  {
+    "query_id": 130,
+    "query": "enlarged, sore, painful liver with pain in left side apparently in descending colon and under false ribs",
+    "expected_sections": [
+      "Abdomen"
+    ],
+    "best_remedy": "DIGITALIS PURPUREA"
+  },
+  {
+    "query_id": 131,
+    "query": "anthropophobia with constant rapid questioning without waiting for reply and cannot do things fast enough",
+    "expected_sections": [
+      "Mind"
+    ],
+    "best_remedy": "AURUM METALLICUM"
+  },
+  {
+    "query_id": 132,
+    "query": "food tastes like straw with violent thirst",
+    "expected_sections": [
+      "Stomach"
+    ],
+    "best_remedy": "STRAMONIUM"
+  },
+  {
+    "query_id": 133,
+    "query": "prolapse of rectum with stitches and prolapse of rectum",
+    "expected_sections": [
+      "Rectum"
+    ],
+    "best_remedy": "MEZEREUM"
+  },
+  {
+    "query_id": 134,
+    "query": "nat sulphocarbol with natrum nitrosum angina pectoris",
+    "expected_sections": [
+      "Relationship"
+    ],
+    "best_remedy": "NATRIUM PHOSPHORICUM"
+  },
+  {
+    "query_id": 135,
+    "query": "bloated in morning with puffy under eyes",
+    "expected_sections": [
+      "Face"
+    ],
+    "best_remedy": "XEROPHYLLUM"
+  },
+  {
+    "query_id": 136,
+    "query": "hallucinations of sight and hearing with sluggishness of mind and dementia alternating with excitement",
+    "expected_sections": [
+      "Mind"
+    ],
+    "best_remedy": "CARBONEUM SULPHURATUM"
+  },
+  {
+    "query_id": 137,
+    "query": "profuse flow of urine with burning along urinary tract or in pudendum",
+    "expected_sections": [
+      "Urinary"
+    ],
+    "best_remedy": "SAROTHAMNUS SCOPARIUS"
+  },
+  {
+    "query_id": 138,
+    "query": "cervical muscles contracted with stares persistently at objects and cerebro-spinal meningitis",
+    "expected_sections": [
+      "Head"
+    ],
+    "best_remedy": "CICUTA VIROSA"
+  },
+  {
+    "query_id": 139,
+    "query": "easy choking when eating with throbbing and cutting in stomach",
+    "expected_sections": [
+      "Stomach"
+    ],
+    "best_remedy": "KALIUM CARBONICUM"
+  },
+  {
+    "query_id": 140,
+    "query": "bitter taste after a swallow of water with painful hard spot and vomiting of food several hours after eating",
+    "expected_sections": [
+      "Stomach"
+    ],
+    "best_remedy": "KREOSOTUM"
+  },
+  {
+    "query_id": 141,
+    "query": "thirtieth and higher potencies with should not be repeated too frequently in elderly people",
+    "expected_sections": [
+      "Dose"
+    ],
+    "best_remedy": "CALCAREA CARBONICA"
+  },
+  {
+    "query_id": 142,
+    "query": "excessive trembling and weakness of all limbs with loss of power of muscular control",
+    "expected_sections": [
+      "Extremities"
+    ],
+    "best_remedy": "GELSEMIUM SEMPERVIRENS"
+  },
+  {
+    "query_id": 143,
+    "query": "menses scanty, with dull, painful, nightly increasing pressure in the right lumbar region",
+    "expected_sections": [
+      "Female"
+    ],
+    "best_remedy": "AQUILEGIA VULGARIS"
+  },
+  {
+    "query_id": 144,
+    "query": "eructations of scalding, hot, acid, watery substance with bad taste in the morning",
+    "expected_sections": [
+      "Stomach"
+    ],
+    "best_remedy": "FAGOPYRUM ESCULENTUM"
+  },
+  {
+    "query_id": 145,
+    "query": "aching across lumbo-sacral region with cannot walk erect and pain along spine",
+    "expected_sections": [
+      "Back"
+    ],
+    "best_remedy": "MORPHINUM"
+  },
+  {
+    "query_id": 146,
+    "query": "alternates between nostrils with stuffy colds, snuffles, after exposure to dry, cold atmosphere and coryza: fluent in daytime",
+    "expected_sections": [
+      "Nose"
+    ],
+    "best_remedy": "NUX VOMICA"
+  },
+  {
+    "query_id": 147,
+    "query": "heavy frontal headache with headache over eyebrows",
+    "expected_sections": [
+      "Head"
+    ],
+    "best_remedy": "EUONYMUS ATROPURPUREA"
+  },
+  {
+    "query_id": 148,
+    "query": "worm colic, with itching of nose, pale face, blue rings around eyes with diarrhœa and vomiting",
+    "expected_sections": [
+      "Abdomen"
+    ],
+    "best_remedy": "FILIX MAS"
+  },
+  {
+    "query_id": 149,
+    "query": "first to thirtieth potency with in diarrhœa, not below the sixth",
+    "expected_sections": [
+      "Dose"
+    ],
+    "best_remedy": "VERATRUM ALBUM"
+  },
+  {
+    "query_id": 150,
+    "query": "stiffness over body and limbs with creeping sensation over limbs",
+    "expected_sections": [
+      "Extremities"
+    ],
+    "best_remedy": "KALIUM SILICICUM"
+  },
+  {
+    "query_id": 151,
+    "query": "pain in stomach an hour after eating with thirstlessness, with nearly all complaints",
+    "expected_sections": [
+      "Stomach"
+    ],
+    "best_remedy": "PULSATILLA PRATENSIS"
+  },
+  {
+    "query_id": 152,
+    "query": "chronic eczema with numerous small nodules under skin and psoriasis, lichen",
+    "expected_sections": [
+      "Skin"
+    ],
+    "best_remedy": "KALIUM ARSENICOSUM"
+  },
+  {
+    "query_id": 153,
+    "query": "burning in throat with pressure outwards",
+    "expected_sections": [
+      "Head"
+    ],
+    "best_remedy": "ERIODYCTION CALIFORNICUM"
+  },
+  {
+    "query_id": 154,
+    "query": "prolapsus ani with jaundice, aching in liver",
+    "expected_sections": [
+      "Abdomen"
+    ],
+    "best_remedy": "NITRICUM ACIDUM"
+  },
+  {
+    "query_id": 155,
+    "query": "hasty eating and drinking with temporarily relieved by holding ice-water in the mouth",
+    "expected_sections": [
+      "Mouth"
+    ],
+    "best_remedy": "COFFEA CRUDA"
+  },
+  {
+    "query_id": 156,
+    "query": "great fear of being touched or approached with cannot walk erect, on account of bruised pain in pelvic region",
+    "expected_sections": [
+      "Extremities"
+    ],
+    "best_remedy": "ARNICA MONTANA"
+  },
+  {
+    "query_id": 157,
+    "query": "itching of scrotum, keeps him awake with scrotum swollen",
+    "expected_sections": [
+      "Male"
+    ],
+    "best_remedy": "URTICA URENS"
+  },
+  {
+    "query_id": 158,
+    "query": "gnawing in stomach with epigastric pain immediately after eating and cancer of stomach",
+    "expected_sections": [
+      "Stomach"
+    ],
+    "best_remedy": "AMMONIUM MURIATICUM"
+  },
+  {
+    "query_id": 159,
+    "query": "sour sensation in chest with longing for fresh air",
+    "expected_sections": [
+      "Respiratory"
+    ],
+    "best_remedy": "CALCAREA CARBONICA"
+  },
+  {
+    "query_id": 160,
+    "query": "pain across top of head from ear to ear with feels as if swung backward and forward",
+    "expected_sections": [
+      "Head"
+    ],
+    "best_remedy": "PALLADIUM METALLICUM"
+  },
+  {
+    "query_id": 161,
+    "query": "tarsal edges feel hot with abundant lachrymation, hot and feeling of sand under lids",
+    "expected_sections": [
+      "Eyes"
+    ],
+    "best_remedy": "PHYTOLACCA DECANDRA"
+  },
+  {
+    "query_id": 162,
+    "query": "aural vertigo with roaring, buzzing",
+    "expected_sections": [
+      "Ears"
+    ],
+    "best_remedy": "BRYONIA ALBA"
+  },
+  {
+    "query_id": 163,
+    "query": "coldness of the body, and continued chilliness very marked with sweats on every exertion",
+    "expected_sections": [
+      "Fever"
+    ],
+    "best_remedy": "NATRIUM MURIATICUM"
+  },
+  {
+    "query_id": 164,
+    "query": "eyelids red, burning with difficult hearing",
+    "expected_sections": [
+      "Head"
+    ],
+    "best_remedy": "SABADILLA"
+  },
+  {
+    "query_id": 165,
+    "query": "lumbago and stiff neck with heavy head and drowsiness and pain from nape to shoulder",
+    "expected_sections": [
+      "Compare: Pimpinello––(Bibernell)"
+    ],
+    "best_remedy": "DULCAMARA"
+  },
+  {
+    "query_id": 166,
+    "query": "wagner of basel, with the remedies should not be used after each other and causticum does not agree with",
+    "expected_sections": [
+      "Relationship"
+    ],
+    "best_remedy": "CAUSTICUM"
+  },
+  {
+    "query_id": 167,
+    "query": "first to third for congestive conditions with sixth potency for sensory affections and acon is a rapid worker",
+    "expected_sections": [
+      "Dose"
+    ],
+    "best_remedy": "ACONITUM NAPELLUS"
+  },
+  {
+    "query_id": 168,
+    "query": "headache with pain in heart on lying on left side with dull heavy occipital pain, on right side and right eye",
+    "expected_sections": [
+      "Head"
+    ],
+    "best_remedy": "CROTALUS HORRIDUS"
+  },
+  {
+    "query_id": 169,
+    "query": "trembling of limbs and entire body with œdema of legs and aching pains",
+    "expected_sections": [
+      "Extremities"
+    ],
+    "best_remedy": "THYROIDINUM"
+  },
+  {
+    "query_id": 170,
+    "query": "dull, drowsy, stupid with it induces mental exhilaration of buoyancy, i",
+    "expected_sections": [
+      "Mind"
+    ],
+    "best_remedy": "ALFALFA"
+  },
+  {
+    "query_id": 171,
+    "query": "glands swell every time patient takes cold with ulcers, irregular in shape, edges undefined",
+    "expected_sections": [
+      "Skin"
+    ],
+    "best_remedy": "MERCURIUS SOLUBILIS"
+  },
+  {
+    "query_id": 172,
+    "query": "dread of downward motion with photophobia and lachrymation in cold air or from cold application",
+    "expected_sections": [
+      "Head"
+    ],
+    "best_remedy": "SANICULA AQUA"
+  },
+  {
+    "query_id": 173,
+    "query": "eyes staring, expressionless with glaucoma, increased tension, decreased corneal sensibility",
+    "expected_sections": [
+      "Eyes"
+    ],
+    "best_remedy": "COCAINUM HYDROCHLORICUM"
+  },
+  {
+    "query_id": 174,
+    "query": "pricking in fingers with pain in back and spine, with trembling, but oftener in front of a pressing-down character and burning palms and soles",
+    "expected_sections": [
+      "Extremities"
+    ],
+    "best_remedy": "LILIUM TIGRINUM"
+  },
+  {
+    "query_id": 175,
+    "query": "inability to perform continuous active work with cannot bear pain and morose, delirious",
+    "expected_sections": [
+      "Mind"
+    ],
+    "best_remedy": "ARNICA MONTANA"
+  },
+  {
+    "query_id": 176,
+    "query": "very fetid gas preceded by colic with fullness and hardness in abdomen, as from incarcerated flatulence",
+    "expected_sections": [
+      "Abdomen"
+    ],
+    "best_remedy": "GRAPHITES"
+  },
+  {
+    "query_id": 177,
+    "query": "asthma, with fullness in stomach, morning or after eating with cough, with sensation as if something were torn loose in chest",
+    "expected_sections": [
+      "Respiratory"
+    ],
+    "best_remedy": "NUX VOMICA"
+  },
+  {
+    "query_id": 178,
+    "query": "listless, apathetic, indifferent with vertigo with attacks of fainting and chilliness in back and occiput",
+    "expected_sections": [
+      "Head"
+    ],
+    "best_remedy": "BERBERIS VULGARIS"
+  },
+  {
+    "query_id": 179,
+    "query": "bones feel sore and bruised with wandering pains, along the bones",
+    "expected_sections": [
+      "Extremities"
+    ],
+    "best_remedy": "KALIUM BICHROMICUM"
+  },
+  {
+    "query_id": 180,
+    "query": "nodes on palate with hemming all the time and low, monotonous voice",
+    "expected_sections": [
+      "Mouth"
+    ],
+    "best_remedy": "MANGANUM ACETICUM"
+  },
+  {
+    "query_id": 181,
+    "query": "diarrhœa of cadaverous odor with fistula in ano",
+    "expected_sections": [
+      "Rectum"
+    ],
+    "best_remedy": "SILICEA TERRA"
+  },
+  {
+    "query_id": 182,
+    "query": "distention with hardness with umbilical hernia and cutting in abdomen",
+    "expected_sections": [
+      "Abdomen"
+    ],
+    "best_remedy": "CALCAREA CARBONICA"
+  },
+  {
+    "query_id": 183,
+    "query": "circular spots, with scaly edges with pustules on chest and psoriasis gyrate, on trunk and extremities, palms and soles",
+    "expected_sections": [
+      "Skin"
+    ],
+    "best_remedy": "HYDROCOTYLE ASIATICA"
+  },
+  {
+    "query_id": 184,
+    "query": "rattling sounds of air passing through thick, tenacious mucus in the bronchi with expectoration thick and white and loud, noisy stomach cough",
+    "expected_sections": [
+      "Respiratory Organs"
+    ],
+    "best_remedy": "KALIUM MURIATICUM"
+  },
+  {
+    "query_id": 185,
+    "query": "acts on the pulmonary circulation with bronchorrhœa, with tough, whitish, mucous expectoration",
+    "expected_sections": [
+      "Respiratory"
+    ],
+    "best_remedy": "GRINDELIA ROBUSTA"
+  },
+  {
+    "query_id": 186,
+    "query": "seminal emissions, without sexual excitement with frequent micturation with burning",
+    "expected_sections": [
+      "Male"
+    ],
+    "best_remedy": "ARGENTUM METALLICUM"
+  },
+  {
+    "query_id": 187,
+    "query": "expectoration, moldy taste and smell with stitches in chest, with inspiration and cough and cough with moldy taste-breath smells moldy",
+    "expected_sections": [
+      "Respiratory"
+    ],
+    "best_remedy": "BORAX VENETA"
+  },
+  {
+    "query_id": 188,
+    "query": "labyrinthine disease due to syphilis with caries of ossicula and of mastoid and chronic nerve deafness",
+    "expected_sections": [
+      "Ears"
+    ],
+    "best_remedy": "AURUM METALLICUM"
+  },
+  {
+    "query_id": 189,
+    "query": "sixth to two hundredth potency",
+    "expected_sections": [
+      "Dose"
+    ],
+    "best_remedy": "ANACARDIUM ORIENTALE"
+  },
+  {
+    "query_id": 190,
+    "query": "stitches in left side when breathing and lying on same side with chest feels sore",
+    "expected_sections": [
+      "Respiratory"
+    ],
+    "best_remedy": "STANNUM METALLICUM"
+  },
+  {
+    "query_id": 191,
+    "query": "eruptions around mouth and vesicles like pearls on lips with vesicles and burning on tongue, as if there was a hair on it",
+    "expected_sections": [
+      "Mouth"
+    ],
+    "best_remedy": "NATRIUM MURIATICUM"
+  },
+  {
+    "query_id": 192,
+    "query": "fagus-beech-nuts––",
+    "expected_sections": [
+      "Relationship"
+    ],
+    "best_remedy": "EPIPHEGUS VIRGINIANA"
+  },
+  {
+    "query_id": 193,
+    "query": "highest potencies only, and in infrequent doses",
+    "expected_sections": [
+      "Dose"
+    ],
+    "best_remedy": "SYPHILINUM"
+  },
+  {
+    "query_id": 194,
+    "query": "one foot hot, the other cold with chronic gout, with chalky deposits in joints",
+    "expected_sections": [
+      "Extremities"
+    ],
+    "best_remedy": "LYCOPODIUM CLAVATUM"
+  },
+  {
+    "query_id": 195,
+    "query": "shivering, with hot face, cold hands, no thirst with internal chilliness and is always too cold, even in bed",
+    "expected_sections": [
+      "Fever"
+    ],
+    "best_remedy": "DROSERA ROTUNDIFOLIA"
+  },
+  {
+    "query_id": 196,
+    "query": "teaspoonful doses every two hours with ten to fifteen drops, in about six ounces of water",
+    "expected_sections": [
+      "Dose"
+    ],
+    "best_remedy": "PROPYLAMINUM"
+  },
+  {
+    "query_id": 197,
+    "query": "intellectual apathy with fear of being assassinated",
+    "expected_sections": [
+      "Mind"
+    ],
+    "best_remedy": "PLUMBUM METALLICUM"
+  },
+  {
+    "query_id": 198,
+    "query": "loses his way in streets with feels that death is near, and must hurry to settle affairs and thinks he is double, or some one else lying alongside",
+    "expected_sections": [
+      "Mind"
+    ],
+    "best_remedy": "PETROLEUM"
+  },
+  {
+    "query_id": 199,
+    "query": "acute and sub-acute conditions of eustachian tube with membrana tympani bulges and injected and humming noises",
+    "expected_sections": [
+      "Ears"
+    ],
+    "best_remedy": "BELLADONNA"
+  },
+  {
+    "query_id": 200,
+    "query": "pustules and abscesses with malignant erysipelas",
+    "expected_sections": [
+      "Skin"
+    ],
+    "best_remedy": "HIPPOZAENINUM"
+  },
+  {
+    "query_id": 201,
+    "query": "draught of air with after eating",
+    "expected_sections": [
+      "Modalities"
+    ],
+    "best_remedy": "CHINA OFFICINALIS"
+  },
+  {
+    "query_id": 202,
+    "query": "distended, sore, and sensitive",
+    "expected_sections": [
+      "Abdomen"
+    ],
+    "best_remedy": "HEDEOMA PULEGIOIDES"
+  },
+  {
+    "query_id": 203,
+    "query": "pulse small, weak, slow with cold perspiration",
+    "expected_sections": [
+      "Fever"
+    ],
+    "best_remedy": "CAMPHORA"
+  },
+  {
+    "query_id": 204,
+    "query": "ulcers, with very offensive pus with burning red rash",
+    "expected_sections": [
+      "Skin"
+    ],
+    "best_remedy": "PHOSPHORICUM ACIDUM"
+  },
+  {
+    "query_id": 205,
+    "query": "exostoses on fingers with gouty enlargements of the joints of the fingers and chronic synovitis of knee-joint",
+    "expected_sections": [
+      "Extremities"
+    ],
+    "best_remedy": "CALCAREA FLUORICA"
+  },
+  {
+    "query_id": 206,
+    "query": "suppressed menses with menses irregular and ineffectual labor-pains",
+    "expected_sections": [
+      "Female"
+    ],
+    "best_remedy": "NATRIUM MURIATICUM"
+  },
+  {
+    "query_id": 207,
+    "query": "capsular cataract with mist before eyes, optical illusions in incipient cataract",
+    "expected_sections": [
+      "Eyes"
+    ],
+    "best_remedy": "AMMONIUM MURIATICUM"
+  },
+  {
+    "query_id": 208,
+    "query": "soreness between toes and fingers with easy dislocation and spraining of ankles",
+    "expected_sections": [
+      "Extremities"
+    ],
+    "best_remedy": "NATRIUM CARBONICUM"
+  },
+  {
+    "query_id": 209,
+    "query": "pleuritic stitches with dry, tight cough and fetid breath after coughing",
+    "expected_sections": [
+      "Respiratory"
+    ],
+    "best_remedy": "GUAJACUM OFFICINALE"
+  },
+  {
+    "query_id": 210,
+    "query": "ringing in ears with stitching pain and swelling and heat driving patient frantic",
+    "expected_sections": [
+      "Ears"
+    ],
+    "best_remedy": "CHAMOMILLA"
+  },
+  {
+    "query_id": 211,
+    "query": "husky voice with dyspnœa after drinking water and oppression of chest",
+    "expected_sections": [
+      "Respiratory"
+    ],
+    "best_remedy": "LIMULUS CYCLOPS"
+  },
+  {
+    "query_id": 212,
+    "query": "ears hyperæmic with sensation as if blood would start through skin, with heat and redness",
+    "expected_sections": [
+      "Head"
+    ],
+    "best_remedy": "AMYLENUM NITROSUM"
+  },
+  {
+    "query_id": 213,
+    "query": "hallucinations of smell and sight with great fear, with cold sweat and miserly, malicious, selfish, lacks courage",
+    "expected_sections": [
+      "Mind"
+    ],
+    "best_remedy": "ARSENICUM ALBUM"
+  },
+  {
+    "query_id": 214,
+    "query": "strychnin sulph with strych et ferr cit and strychnin nit",
+    "expected_sections": [
+      "Relationship"
+    ],
+    "best_remedy": "STRYCHNINUM PURUM"
+  },
+  {
+    "query_id": 215,
+    "query": "violent spasmodic cough with cough from talking",
+    "expected_sections": [
+      "Respiratory"
+    ],
+    "best_remedy": "MEPHITIS PUTORIUS"
+  },
+  {
+    "query_id": 216,
+    "query": "acts in all potencies from the lowest to the highest with in torpid eruptions the lowest potencies",
+    "expected_sections": [
+      "Dose"
+    ],
+    "best_remedy": "SULPHUR"
+  },
+  {
+    "query_id": 217,
+    "query": "profuse perspiration of genitals with emissions and weakened sexual power and ulcers on glans and inner prepuce, with yellow ichor",
+    "expected_sections": [
+      "Male"
+    ],
+    "best_remedy": "CORALLIUM RUBRUM"
+  },
+  {
+    "query_id": 218,
+    "query": "puerperal peritonitis with metrorrhagia with burning in uterus",
+    "expected_sections": [
+      "Female"
+    ],
+    "best_remedy": "TEREBINTHINIAE OLEUM"
+  },
+  {
+    "query_id": 219,
+    "query": "especially with flatulence and pain through chest and tightness across with pain back of sternum into arms and feeble action of heart",
+    "expected_sections": [
+      "Heart"
+    ],
+    "best_remedy": "DIOSCOREA VILLOSA"
+  },
+  {
+    "query_id": 220,
+    "query": "deep rough cough with greenish expectoration",
+    "expected_sections": [
+      "Respiratory"
+    ],
+    "best_remedy": "AMMONIUM PHOSPHORICUM"
+  },
+  {
+    "query_id": 221,
+    "query": "finger tips cold with bitter taste",
+    "expected_sections": [
+      "Fever"
+    ],
+    "best_remedy": "TARAXACUM OFFICINALE"
+  },
+  {
+    "query_id": 222,
+    "query": "knife-like pains around back",
+    "expected_sections": [
+      "Back"
+    ],
+    "best_remedy": "CHINA OFFICINALIS"
+  },
+  {
+    "query_id": 223,
+    "query": "cutting in abdomen, especially after anger with intestines feel as if bruised and sensation as if stones were being ground together in the abdomen, and would burst",
+    "expected_sections": [
+      "Abdomen"
+    ],
+    "best_remedy": "COLOCYNTHIS"
+  },
+  {
+    "query_id": 224,
+    "query": "fearful and nervous with peculiar mental impulses",
+    "expected_sections": [
+      "Mind"
+    ],
+    "best_remedy": "ARGENTUM NITRICUM"
+  },
+  {
+    "query_id": 225,
+    "query": "paroxysms of two with whooping-cough with nosebleed and stitches from lower lobe of right lung to back",
+    "expected_sections": [
+      "Respiratory"
+    ],
+    "best_remedy": "MERCURIUS SOLUBILIS"
+  },
+  {
+    "query_id": 226,
+    "query": "exceedingly irritable with everything puts him out of humor and wants to go home",
+    "expected_sections": [
+      "Mind"
+    ],
+    "best_remedy": "BRYONIA ALBA"
+  },
+  {
+    "query_id": 227,
+    "query": "indigestion, furred tongue, headache after meals, especially in bilious, dark-haired persons",
+    "expected_sections": [
+      "Stomach"
+    ],
+    "best_remedy": "FERRUM PICRICUM"
+  },
+  {
+    "query_id": 228,
+    "query": "post-nasal dropping of thick, bland, yellowish mucus with feels stopped and pain at root",
+    "expected_sections": [
+      "Nose"
+    ],
+    "best_remedy": "NATRIUM ARSENICOSUM"
+  },
+  {
+    "query_id": 229,
+    "query": "slow, sighing respiration with profuse, thin, serous expectoration",
+    "expected_sections": [
+      "Respiratory"
+    ],
+    "best_remedy": "JABORANDI"
+  },
+  {
+    "query_id": 230,
+    "query": "pulsating toothache",
+    "expected_sections": [
+      "Mouth"
+    ],
+    "best_remedy": "GLONOINUM"
+  },
+  {
+    "query_id": 231,
+    "query": "optic neuritis, central scotoma with intraocular, suppurative inflammation",
+    "expected_sections": [
+      "Eyes"
+    ],
+    "best_remedy": "PLUMBUM METALLICUM"
+  },
+  {
+    "query_id": 232,
+    "query": "its curative action sometimes is slow in developing itself with the middle and higher potencies seem to have done best",
+    "expected_sections": [
+      "Dose"
+    ],
+    "best_remedy": "LILIUM TIGRINUM"
+  },
+  {
+    "query_id": 233,
+    "query": "lobelia cardinalis",
+    "expected_sections": [
+      "Relationship"
+    ],
+    "best_remedy": "LOBELIA PURPURASCENS"
+  },
+  {
+    "query_id": 234,
+    "query": "extreme anxiety, especially from motions which have a downward direction, rocking, being carried downstairs, laid down with sensitive to sudden noises and excessively nervous",
+    "expected_sections": [
+      "Mind"
+    ],
+    "best_remedy": "BORAX VENETA"
+  },
+  {
+    "query_id": 235,
+    "query": "blotchy papular rash on face with pink spots on back, chest and abdomen",
+    "expected_sections": [
+      "Skin"
+    ],
+    "best_remedy": "COLCHICUM AUTUMNALE"
+  },
+  {
+    "query_id": 236,
+    "query": "dirty, dry nostrils with nose pointed and smell diminished",
+    "expected_sections": [
+      "Nose"
+    ],
+    "best_remedy": "HELLEBORUS NIGER"
+  },
+  {
+    "query_id": 237,
+    "query": "crawling, with burning stitches with lumbago and rheumatic pain in muscles and joints and drawing pain down whole left leg",
+    "expected_sections": [
+      "Extremities"
+    ],
+    "best_remedy": "BARYTA ACETICA"
+  },
+  {
+    "query_id": 238,
+    "query": "eucalyptus rostrata",
+    "expected_sections": [
+      "Relationship"
+    ],
+    "best_remedy": "ELAPS CORALLINUS"
+  },
+  {
+    "query_id": 239,
+    "query": "dry gangrene, developing slowly with raynaud's disease",
+    "expected_sections": [
+      "Skin"
+    ],
+    "best_remedy": "SECALE CORNUTUM"
+  },
+  {
+    "query_id": 240,
+    "query": "distended and full with coldness of abdomen and increased by smoking tobacco",
+    "expected_sections": [
+      "Abdomen"
+    ],
+    "best_remedy": "MENYANTHES TRIFOLIATA"
+  },
+  {
+    "query_id": 241,
+    "query": "lost confidence in himself with aversion to strangers and senile dementia",
+    "expected_sections": [
+      "Mind"
+    ],
+    "best_remedy": "BARYTA CARBONICA"
+  },
+  {
+    "query_id": 242,
+    "query": "ovarian tumors, metritis with stinging pains with bearing-down, as if menses were to appear",
+    "expected_sections": [
+      "Female"
+    ],
+    "best_remedy": "APIS MELLIFICA"
+  },
+  {
+    "query_id": 243,
+    "query": "retching and vomiting with gone feeling at epigastrium a good guiding symptom for it in chronic affections and sensation of heat ascending to head",
+    "expected_sections": [
+      "Stomach"
+    ],
+    "best_remedy": "BARYTA MURIATICA"
+  },
+  {
+    "query_id": 244,
+    "query": "pressure and burning on vertex with relieved by onset of a discharge",
+    "expected_sections": [
+      "Head"
+    ],
+    "best_remedy": "LACHESIS MUTUS"
+  },
+  {
+    "query_id": 245,
+    "query": "lips dry, cracked with tongue swollen, dry, with viscid, frothy mucus",
+    "expected_sections": [
+      "Mouth"
+    ],
+    "best_remedy": "PHOSPHORICUM ACIDUM"
+  },
+  {
+    "query_id": 246,
+    "query": "white and bluish about the mouth with cold perspiration",
+    "expected_sections": [
+      "Face"
+    ],
+    "best_remedy": "CINA MARITIMA"
+  },
+  {
+    "query_id": 247,
+    "query": "cause sleeplessness and delirium at night with stupefying cephalalgia and linear pains from temple across, or from eyes backward",
+    "expected_sections": [
+      "Head"
+    ],
+    "best_remedy": "SYPHILINUM"
+  },
+  {
+    "query_id": 248,
+    "query": "6x to 30th potency",
+    "expected_sections": [
+      "Dose"
+    ],
+    "best_remedy": "FUCHSINUM"
+  },
+  {
+    "query_id": 249,
+    "query": "breasts swollen, indurated, nipples excoriated with scirrhus-like swelling of cervix",
+    "expected_sections": [
+      "Sexual"
+    ],
+    "best_remedy": "ANANTHERUM MURICATUM"
+  },
+  {
+    "query_id": 250,
+    "query": "compare, also: verbasc with agrostema, helonias, sarsaparilla, paris, cyclamen and others contain",
+    "expected_sections": [
+      "Relationship"
+    ],
+    "best_remedy": "SAPONARIA OFFICINALIS"
+  },
+  {
+    "query_id": 251,
+    "query": "pain in sound teeth with tongue has prominent papillæ and canker sores",
+    "expected_sections": [
+      "Mouth"
+    ],
+    "best_remedy": "ARGENTUM NITRICUM"
+  },
+  {
+    "query_id": 252,
+    "query": "that she has cancer with nervous, timid, easily startled and that she is pregnant",
+    "expected_sections": [
+      "Mind"
+    ],
+    "best_remedy": "SABADILLA"
+  },
+  {
+    "query_id": 253,
+    "query": "aching in wrists and ankles with pain and aching in lumbar region and trembling of hands",
+    "expected_sections": [
+      "Back and Extremities"
+    ],
+    "best_remedy": "CONVALLARIA MAJALIS"
+  },
+  {
+    "query_id": 254,
+    "query": "elemuy gauteria–– with sulph often completes its work and complementary: lycop",
+    "expected_sections": [
+      "Relationship"
+    ],
+    "best_remedy": "CHELIDONIUM MAJUS"
+  },
+  {
+    "query_id": 255,
+    "query": "diarrhœa with much fetid flatus with stitching pains in liver, spleen and abdomen",
+    "expected_sections": [
+      "Abdomen"
+    ],
+    "best_remedy": "AGARICUS MUSCARIUS - AMANITA"
+  },
+  {
+    "query_id": 256,
+    "query": "frightful persecutory hallucinations with cerebral activity",
+    "expected_sections": [
+      "Mind"
+    ],
+    "best_remedy": "COCAINUM HYDROCHLORICUM"
+  },
+  {
+    "query_id": 257,
+    "query": "moaning and whining with mistrustful and vivid dreams",
+    "expected_sections": [
+      "Mind"
+    ],
+    "best_remedy": "CICUTA VIROSA"
+  },
+  {
+    "query_id": 258,
+    "query": "pain under shoulder-blades and back of neck, in all muscles, in hollow of right foot with staggering gait",
+    "expected_sections": [
+      "Extremities"
+    ],
+    "best_remedy": "MYRICA CERIFERA"
+  },
+  {
+    "query_id": 259,
+    "query": "hands turn blue with debilitating night-sweats",
+    "expected_sections": [
+      "Extremities"
+    ],
+    "best_remedy": "SAMBUCUS NIGRA"
+  },
+  {
+    "query_id": 260,
+    "query": "icy cold extremities with pain in region of kidneys and loins",
+    "expected_sections": [
+      "Back"
+    ],
+    "best_remedy": "COCCINELLA SEPTEMPUNCTATA"
+  },
+  {
+    "query_id": 261,
+    "query": "congestion of eyes with irregular menstruation, with palpitation and rigid muscles",
+    "expected_sections": [
+      "Female"
+    ],
+    "best_remedy": "PHYSOSTIGMA VENENOSUM"
+  },
+  {
+    "query_id": 262,
+    "query": "nausea and vomiting of copious clear water, intermingled with white, gelatinous lumps",
+    "expected_sections": [
+      "Stomach"
+    ],
+    "best_remedy": "EUPHORBIA LATHYRIS"
+  },
+  {
+    "query_id": 263,
+    "query": "disposition to hurt other people's feelings with ideas crowd in mind",
+    "expected_sections": [
+      "Mind"
+    ],
+    "best_remedy": "CHINA OFFICINALIS"
+  },
+  {
+    "query_id": 264,
+    "query": "antimon iod with complementary: calc phos and in the early stages of tubercular disease of glands, joints, skin and bones",
+    "expected_sections": [
+      "Relationship"
+    ],
+    "best_remedy": "BACILLINUM BURNETT"
+  },
+  {
+    "query_id": 265,
+    "query": "pain in knees with caries of long bones and pain in limbs on walking",
+    "expected_sections": [
+      "Extremities"
+    ],
+    "best_remedy": "ANGUSTURA VERA"
+  },
+  {
+    "query_id": 266,
+    "query": "sharp burning from tongue to stomach with tympanitic distention of abdomen",
+    "expected_sections": [
+      "Stomach and Abdomen"
+    ],
+    "best_remedy": "BROMIUM"
+  },
+  {
+    "query_id": 267,
+    "query": "itching at anus with painful hæmorrhoids",
+    "expected_sections": [
+      "Rectum"
+    ],
+    "best_remedy": "ANACARDIUM ORIENTALE"
+  },
+  {
+    "query_id": 268,
+    "query": "prickling, itching with intense nausea",
+    "expected_sections": [
+      "Skin"
+    ],
+    "best_remedy": "LOBELIA INFLATA"
+  },
+  {
+    "query_id": 269,
+    "query": "ovarian neuralgia with menses scanty, intermit, with nausea and bearing down sticking pain in external parts",
+    "expected_sections": [
+      "Female"
+    ],
+    "best_remedy": "MELILOTUS OFFICINALIS"
+  },
+  {
+    "query_id": 270,
+    "query": "directions appear reversed, i with trance-like state and weeping and laughing alternately",
+    "expected_sections": [
+      "Mind"
+    ],
+    "best_remedy": "CAMPHORA BROMATA"
+  },
+  {
+    "query_id": 271,
+    "query": "swelling and tenderness of finger and toe joints with ankles pain when walking and rheumatic pains throughout shoulder-joint, arm, and fingers and small joints generally",
+    "expected_sections": [
+      "Extremities"
+    ],
+    "best_remedy": "LITHIUM CARBONICUM"
+  },
+  {
+    "query_id": 272,
+    "query": "diarrhœa, fetid, black, with sour odor of body, and empty faint feeling in abdomen with rectum feels as if it had a big ball and oozing dampness",
+    "expected_sections": [
+      "Rectum"
+    ],
+    "best_remedy": "SULPHURICUM ACIDUM"
+  },
+  {
+    "query_id": 273,
+    "query": "involuntary shaking of hands with feet very tender and darting pains",
+    "expected_sections": [
+      "Extremities"
+    ],
+    "best_remedy": "MAGNESIUM PHOSPHORICUM"
+  },
+  {
+    "query_id": 274,
+    "query": "asthma, with sleeplessness with extreme dyspnœa, with sensation of weight and constriction of chest",
+    "expected_sections": [
+      "Respiratory"
+    ],
+    "best_remedy": "CHLORALUM HYDRATUM"
+  },
+  {
+    "query_id": 275,
+    "query": "tubercular iritis with feeling of cold air blowing on eye and photophobia intense, lachrymation profuse",
+    "expected_sections": [
+      "Eyes"
+    ],
+    "best_remedy": "SYPHILINUM"
+  },
+  {
+    "query_id": 276,
+    "query": "profuse, thin, serous expectoration with œdema of lungs and bronchial mucous membrane inflamed",
+    "expected_sections": [
+      "Respiratory"
+    ],
+    "best_remedy": "JABORANDI"
+  },
+  {
+    "query_id": 277,
+    "query": "third potency with five drops every four hours for increasing flow of milk and also locally a poultice of the leaves",
+    "expected_sections": [
+      "Dose"
+    ],
+    "best_remedy": "RICINUS COMMUNIS"
+  },
+  {
+    "query_id": 278,
+    "query": "throbbing carotids with bursting feeling, as if temples would burst, or the eyes burst out of the sockets",
+    "expected_sections": [
+      "Head"
+    ],
+    "best_remedy": "USNEA BARBATA"
+  },
+  {
+    "query_id": 279,
+    "query": "rose-colored sediment",
+    "expected_sections": [
+      "Urinary"
+    ],
+    "best_remedy": "AMMONIUM PHOSPHORICUM"
+  },
+  {
+    "query_id": 280,
+    "query": "nasal diphtheria, with burning excoriating discharge with difficult respiration and patient gasps for breath",
+    "expected_sections": [
+      "Respiratory"
+    ],
+    "best_remedy": "AMMONIUM CAUSTICUM"
+  },
+  {
+    "query_id": 281,
+    "query": "flatulent diarrhœa with tenesmus and dry stool",
+    "expected_sections": [
+      "Bowels"
+    ],
+    "best_remedy": "RHAMNUS CALIFORNICA"
+  },
+  {
+    "query_id": 282,
+    "query": "locally for bites of insect, stings of bees, and poisoned wounds, warts with tincture and 2 decimal, also fresh juice of plant",
+    "expected_sections": [
+      "Dose"
+    ],
+    "best_remedy": "SEMPERVIVUM TECTORUM"
+  },
+  {
+    "query_id": 283,
+    "query": "diarrhœa after maple sugar and from change of weather with purulent diarrhœa mixed with blood and painful abscesses about the anus in cases of fistula",
+    "expected_sections": [
+      "Stool"
+    ],
+    "best_remedy": "CALCAREA SULPHURICA"
+  },
+  {
+    "query_id": 284,
+    "query": "muscles of bladder paretic, must strain at stool in order to urinate with frequent desire to urinate in old people",
+    "expected_sections": [
+      "Urinary"
+    ],
+    "best_remedy": "ALUMINA"
+  },
+  {
+    "query_id": 285,
+    "query": "sixth potency and higher with takes long time to develop its action, which is very prolonged",
+    "expected_sections": [
+      "Dose"
+    ],
+    "best_remedy": "TELLURIUM METALLICUM"
+  },
+  {
+    "query_id": 286,
+    "query": "third to thirtieth potency with theine 1/4-1/2 grain hypodermically for sciatica and supra-orbital neuralgia",
+    "expected_sections": [
+      "Dose"
+    ],
+    "best_remedy": "THEA CHINENSIS"
+  },
+  {
+    "query_id": 287,
+    "query": "ten to twenty drops of the tincture three times daily",
+    "expected_sections": [
+      "Dose"
+    ],
+    "best_remedy": "TRIBULUS TERRESTRIS"
+  },
+  {
+    "query_id": 288,
+    "query": "scaly eruption on scalp with brain feels sore",
+    "expected_sections": [
+      "Head"
+    ],
+    "best_remedy": "PHYTOLACCA DECANDRA"
+  },
+  {
+    "query_id": 289,
+    "query": "red pimples with intolerable itching and feels obstructed and dry",
+    "expected_sections": [
+      "Nose"
+    ],
+    "best_remedy": "ZINGIBER OFFICINALE"
+  },
+  {
+    "query_id": 290,
+    "query": "burn and itch, as if frozen with twitching of muscles about the ear and noises",
+    "expected_sections": [
+      "Ears"
+    ],
+    "best_remedy": "AGARICUS MUSCARIUS - AMANITA"
+  },
+  {
+    "query_id": 291,
+    "query": "yellow, tenacious leucorrhœa with pruritus of vulva, with great burning and excitement and prolapsus uteri",
+    "expected_sections": [
+      "Female"
+    ],
+    "best_remedy": "KALIUM BICHROMICUM"
+  },
+  {
+    "query_id": 292,
+    "query": "palpitation, œdema and dyspnœa of valvular disease disappear with oleander contains and oleandrin and also nerein which latter is said to be closely related if not identical with digitalin",
+    "expected_sections": [
+      "Relationship"
+    ],
+    "best_remedy": "OLEANDER"
+  },
+  {
+    "query_id": 293,
+    "query": "mucus and blood, with tenesmus, especially in plethoric and nervous women at change of life with early-morning urgent stool",
+    "expected_sections": [
+      "Stool"
+    ],
+    "best_remedy": "LILIUM TIGRINUM"
+  },
+  {
+    "query_id": 294,
+    "query": "unnatural hunger with nervous disturbances, with spasmodic contractions, hiccough and empty eructations, tasting of apples",
+    "expected_sections": [
+      "Stomach"
+    ],
+    "best_remedy": "AGARICUS MUSCARIUS - AMANITA"
+  },
+  {
+    "query_id": 295,
+    "query": "smoky, scanty with albuminous and thick deposits",
+    "expected_sections": [
+      "Urinary"
+    ],
+    "best_remedy": "AMMONIUM BENZOICUM"
+  },
+  {
+    "query_id": 296,
+    "query": "complementary: nitr ac with incompatible: arum triph and ikshugandha",
+    "expected_sections": [
+      "Relationship"
+    ],
+    "best_remedy": "CALADIUM SEGUINUM"
+  },
+  {
+    "query_id": 297,
+    "query": "emissions in sleep, or from sexual atony, with weak knees with strong-smelling sweat on scrotum and pubes and pains shoot into testicles from region of kidneys",
+    "expected_sections": [
+      "Male"
+    ],
+    "best_remedy": "DIOSCOREA VILLOSA"
+  },
+  {
+    "query_id": 298,
+    "query": "figwarts of offensive odor with ulcers externally on prepuce similar to chancre",
+    "expected_sections": [
+      "Male"
+    ],
+    "best_remedy": "HEPAR SULPHUR"
+  },
+  {
+    "query_id": 299,
+    "query": "forgetful, ill-humored, gloomy during stormy weather with sad, weepy, unreasonable and uncleanliness",
+    "expected_sections": [
+      "Mind"
+    ],
+    "best_remedy": "AMMONIUM CARBONICUM"
+  },
+  {
+    "query_id": 300,
+    "query": "griping and diarrhœa with dysentery, with tympanites, tenesmus",
+    "expected_sections": [
+      "Abdomen"
+    ],
+    "best_remedy": "XANTOXYLUM FRAXINEUM"
+  },
+  {
+    "query_id": 301,
+    "query": "pruritus pudendi with sub-involution and congestion of uterus, prolapse, and anteversion",
+    "expected_sections": [
+      "Female"
+    ],
+    "best_remedy": "LILIUM TIGRINUM"
+  },
+  {
+    "query_id": 302,
+    "query": "thirst during apyrexia, but little during chilly stage with chilliness of whole body",
+    "expected_sections": [
+      "Fever"
+    ],
+    "best_remedy": "CIMEX LECTULARIUS"
+  },
+  {
+    "query_id": 303,
+    "query": "hot-ball feeling from uterus to throat, stopping there with heat and burning in throat",
+    "expected_sections": [
+      "Throat"
+    ],
+    "best_remedy": "RAPHANUS SATIVUS"
+  },
+  {
+    "query_id": 304,
+    "query": "præcordial oppression, with palpitation and pain between shoulders with cough followed by hiccough and cough dry, teasing, must take a swallow of cold water",
+    "expected_sections": [
+      "Respiratory"
+    ],
+    "best_remedy": "TABACUM"
+  },
+  {
+    "query_id": 305,
+    "query": "extreme restlessness, with continued change of position with sensorium becomes cloudy and listless, sad",
+    "expected_sections": [
+      "Mind"
+    ],
+    "best_remedy": "RHUS TOXICODENDRON"
+  },
+  {
+    "query_id": 306,
+    "query": "violent pain along ureter, left side with renal colic",
+    "expected_sections": [
+      "Urinary"
+    ],
+    "best_remedy": "TABACUM"
+  },
+  {
+    "query_id": 307,
+    "query": "hot and dry, especially in palms with itching more between scapulæ and on forearms",
+    "expected_sections": [
+      "Skin"
+    ],
+    "best_remedy": "BOLETUS LARICIS"
+  },
+  {
+    "query_id": 308,
+    "query": "weak digestion, with continuous hunger with hiccough and regurgitation and stomach sensitive to touch",
+    "expected_sections": [
+      "Stomach"
+    ],
+    "best_remedy": "MERCURIUS SOLUBILIS"
+  },
+  {
+    "query_id": 309,
+    "query": "repletion with loathing with canine hunger",
+    "expected_sections": [
+      "Stomach"
+    ],
+    "best_remedy": "ARNICA MONTANA"
+  },
+  {
+    "query_id": 310,
+    "query": "spasmodic motions of arms and legs with trembling of hands in paralysis",
+    "expected_sections": [
+      "Extremities"
+    ],
+    "best_remedy": "LOLEUM TEMULENTUM"
+  },
+  {
+    "query_id": 311,
+    "query": "sour eructations",
+    "expected_sections": [
+      "Stomach"
+    ],
+    "best_remedy": "SENECIO AUREUS"
+  },
+  {
+    "query_id": 312,
+    "query": "violent urging to urinate with pain in region of liver and under right scapula to shoulder",
+    "expected_sections": [
+      "Abdomen"
+    ],
+    "best_remedy": "JATROPHA CURCAS"
+  },
+  {
+    "query_id": 313,
+    "query": "chronic bronchitis with palliative in tubercular laryngitis",
+    "expected_sections": [
+      "Respiratory"
+    ],
+    "best_remedy": "INULA HELENIUM"
+  },
+  {
+    "query_id": 314,
+    "query": "heat between the shoulder-blades with pain as if broken and burning in back",
+    "expected_sections": [
+      "Back"
+    ],
+    "best_remedy": "PHOSPHORUS"
+  },
+  {
+    "query_id": 315,
+    "query": "prostatic hypertrophy with vesical region sensitive and sensation of motion in bladder as of a worm",
+    "expected_sections": [
+      "Urinary"
+    ],
+    "best_remedy": "BELLADONNA"
+  },
+  {
+    "query_id": 316,
+    "query": "dryness of pharynx, swallowing difficult with scratching in throat and small solid balls of phlegm thrown up",
+    "expected_sections": [
+      "Throat"
+    ],
+    "best_remedy": "AGARICUS MUSCARIUS - AMANITA"
+  },
+  {
+    "query_id": 317,
+    "query": "shuddering all over with hot sweat in bed and burning in palms",
+    "expected_sections": [
+      "Fever"
+    ],
+    "best_remedy": "APHIS CHENOPODII GLAUCI"
+  },
+  {
+    "query_id": 318,
+    "query": "irritable, impatient ill-humored, nervous",
+    "expected_sections": [
+      "Mind"
+    ],
+    "best_remedy": "VACCININUM"
+  },
+  {
+    "query_id": 319,
+    "query": "sharp, shooting frontal pain, extending into nose, after drinking cold water or eating ice-cream with vertigo, when walking and on rising, in cardiac and hepatic affections and blue tongue and lips",
+    "expected_sections": [
+      "Head"
+    ],
+    "best_remedy": "DIGITALIS PURPUREA"
+  },
+  {
+    "query_id": 320,
+    "query": "canker, copious salivation and water-brash with tongue dry, parched and morning sickness, especially in pale anæmic women",
+    "expected_sections": [
+      "Stomach"
+    ],
+    "best_remedy": "LACTICUM ACIDUM"
+  },
+  {
+    "query_id": 321,
+    "query": "griping in umbilical and left hypogastric region with early morning diarrhœa and disposition to soft, shapeless stools",
+    "expected_sections": [
+      "Abdomen"
+    ],
+    "best_remedy": "ICHTHYOLUM"
+  },
+  {
+    "query_id": 322,
+    "query": "epigastrium tender with eructations with colicky pains",
+    "expected_sections": [
+      "Stomach"
+    ],
+    "best_remedy": "OXYTROPIS LAMBERTI"
+  },
+  {
+    "query_id": 323,
+    "query": "exanthema of lower extremities, with urinary disturbances, dropsy and threatened gangrene with blotches, especially on lower extremities",
+    "expected_sections": [
+      "Skin"
+    ],
+    "best_remedy": "SOLIDAGO VIRGAUREA"
+  },
+  {
+    "query_id": 324,
+    "query": "averse to milk with bitter taste and old dyspeptics, always belching, have sour stomach and rheumatism",
+    "expected_sections": [
+      "Stomach"
+    ],
+    "best_remedy": "NATRIUM CARBONICUM"
+  },
+  {
+    "query_id": 325,
+    "query": "much flatus with bearing-down pain in rectum and difficult, soft stools, with much straining",
+    "expected_sections": [
+      "Rectum"
+    ],
+    "best_remedy": "XEROPHYLLUM"
+  },
+  {
+    "query_id": 326,
+    "query": "ovarian pain, especially left with menses flow more at night",
+    "expected_sections": [
+      "Female"
+    ],
+    "best_remedy": "ZINCUM METALLICUM"
+  },
+  {
+    "query_id": 327,
+    "query": "photophobia with blue color around eyes",
+    "expected_sections": [
+      "Eyes"
+    ],
+    "best_remedy": "CHINA OFFICINALIS"
+  },
+  {
+    "query_id": 328,
+    "query": "higher attenuations, or sixth with phosphorus is the remedy to give in narcosis of chloroform",
+    "expected_sections": [
+      "Dose"
+    ],
+    "best_remedy": "CHLOROFORMIUM"
+  },
+  {
+    "query_id": 329,
+    "query": "severe pains in region of lower inner angle of left shoulder-blade, running into chest",
+    "expected_sections": [
+      "Back"
+    ],
+    "best_remedy": "APHIS CHENOPODII GLAUCI"
+  },
+  {
+    "query_id": 330,
+    "query": "tincture, to thirtieth attenuation",
+    "expected_sections": [
+      "Dose"
+    ],
+    "best_remedy": "CROCUS SATIVUS"
+  },
+  {
+    "query_id": 331,
+    "query": "catarrh of bladder with urine turbid and constant desire to urinate",
+    "expected_sections": [
+      "Urinary"
+    ],
+    "best_remedy": "INDIGO TINCTORIA"
+  },
+  {
+    "query_id": 332,
+    "query": "feels as if lifted high in air, or anxiety lest he fall from heights with mistakes in writing",
+    "expected_sections": [
+      "Mind"
+    ],
+    "best_remedy": "HYPERICUM PERFORATUM"
+  },
+  {
+    "query_id": 333,
+    "query": "acute nasal catarrh with tightness at bridge of nose",
+    "expected_sections": [
+      "Nose"
+    ],
+    "best_remedy": "XEROPHYLLUM"
+  },
+  {
+    "query_id": 334,
+    "query": "pains all over head, dizzy with furious delirium, giddiness and sudden and complete unconsciousness",
+    "expected_sections": [
+      "Head"
+    ],
+    "best_remedy": "OENANTHE CROCATA"
+  },
+  {
+    "query_id": 335,
+    "query": "cough, with burning and pricking in respiratory tracts",
+    "expected_sections": [
+      "Respiratory"
+    ],
+    "best_remedy": "PRIMULA VERIS"
+  },
+  {
+    "query_id": 336,
+    "query": "anxious, frightful dreams with confused consciousness on waking, so that the dream cannot be rid of and fear of dream remains with snoring, especially with children and protracted sleeplessness",
+    "expected_sections": [
+      "Sleep"
+    ],
+    "best_remedy": "CHINA OFFICINALIS"
+  },
+  {
+    "query_id": 337,
+    "query": "diarrhœa in morning, with painful urging and burning in anus, and pressure in rectum and bladder with hard and knotty",
+    "expected_sections": [
+      "Stools"
+    ],
+    "best_remedy": "APHIS CHENOPODII GLAUCI"
+  },
+  {
+    "query_id": 338,
+    "query": "pressure in the perineum with desire increased",
+    "expected_sections": [
+      "Male"
+    ],
+    "best_remedy": "OLEUM ANIMALE AETHEREUM"
+  },
+  {
+    "query_id": 339,
+    "query": "enlarged prostate with testicles indurated",
+    "expected_sections": [
+      "Male"
+    ],
+    "best_remedy": "BARYTA CARBONICA"
+  },
+  {
+    "query_id": 340,
+    "query": "numbness of legs with yawning with uneasiness of legs, must move them constantly",
+    "expected_sections": [
+      "Extremities"
+    ],
+    "best_remedy": "TARENTULA HISPANICA"
+  },
+  {
+    "query_id": 341,
+    "query": "is rude and abuses every one with wild delirium at night",
+    "expected_sections": [
+      "Mind"
+    ],
+    "best_remedy": "GALLICUM ACIDUM"
+  },
+  {
+    "query_id": 342,
+    "query": "sinking at the pit of the stomach with neuralgia of stomach and pain along sternum and extending into arms",
+    "expected_sections": [
+      "Stomach"
+    ],
+    "best_remedy": "DIOSCOREA VILLOSA"
+  },
+  {
+    "query_id": 343,
+    "query": "burning and stinging with urine bloody and albuminous",
+    "expected_sections": [
+      "Urinary"
+    ],
+    "best_remedy": "NITRICUM ACIDUM"
+  },
+  {
+    "query_id": 344,
+    "query": "vertigo, nausea, faintness on rising, confusion with bursting, splitting headache, as if everything would be pressed out and frontal headache, frontal sinuses involved",
+    "expected_sections": [
+      "Head"
+    ],
+    "best_remedy": "BRYONIA ALBA"
+  },
+  {
+    "query_id": 345,
+    "query": "sour, greasy perspiration with chilly in evening",
+    "expected_sections": [
+      "Fever"
+    ],
+    "best_remedy": "MAGNESIUM CARBONICUM"
+  },
+  {
+    "query_id": 346,
+    "query": "smarting in eyes with twitching of lids and short-sighted",
+    "expected_sections": [
+      "Eyes"
+    ],
+    "best_remedy": "OLEUM ANIMALE AETHEREUM"
+  },
+  {
+    "query_id": 347,
+    "query": "paralytic weakness in the hands with tearing pains in loins",
+    "expected_sections": [
+      "Extremities"
+    ],
+    "best_remedy": "ACTAEA SPICATA"
+  },
+  {
+    "query_id": 348,
+    "query": "chest constricted with respiration irregular and gasps for breath",
+    "expected_sections": [
+      "Respiratory"
+    ],
+    "best_remedy": "HELLEBORUS NIGER"
+  },
+  {
+    "query_id": 349,
+    "query": "tincture, five to sixty drops three times a day before meals",
+    "expected_sections": [
+      "Dose"
+    ],
+    "best_remedy": "FUCUS VESICULOSUS"
+  },
+  {
+    "query_id": 350,
+    "query": "weak memory with hopeless of recovery",
+    "expected_sections": [
+      "Mind"
+    ],
+    "best_remedy": "MEDORRHINUM"
+  },
+  {
+    "query_id": 351,
+    "query": "œdematous swelling and coldness of legs and feet with knees strike together, can hardly walk and shifting rheumatism",
+    "expected_sections": [
+      "Extremities"
+    ],
+    "best_remedy": "COLCHICUM AUTUMNALE"
+  },
+  {
+    "query_id": 352,
+    "query": "hæmatemesis with heat and burning stomach rising up in œsophagus",
+    "expected_sections": [
+      "Stomach"
+    ],
+    "best_remedy": "TRILLIUM PENDULUM"
+  },
+  {
+    "query_id": 353,
+    "query": "scratches head on waking with much perspiration, wets the pillow and head enlarged",
+    "expected_sections": [
+      "Head"
+    ],
+    "best_remedy": "CALCAREA CARBONICA"
+  },
+  {
+    "query_id": 354,
+    "query": "stiffness and paralytic feeling in back with hip-disease",
+    "expected_sections": [
+      "Back"
+    ],
+    "best_remedy": "KALIUM CARBONICUM"
+  },
+  {
+    "query_id": 355,
+    "query": "flushes of heat at climacteric with derangements of menstruation, amenorrhœa and menses too early and scanty, in anæmic subjects",
+    "expected_sections": [
+      "Female"
+    ],
+    "best_remedy": "MANGANUM ACETICUM"
+  },
+  {
+    "query_id": 356,
+    "query": "sore throat with post-nasal tumors",
+    "expected_sections": [
+      "Throat"
+    ],
+    "best_remedy": "CHROMICUM ACIDUM"
+  },
+  {
+    "query_id": 357,
+    "query": "burning, painful, weight-like pressure with great desire for sweets and complete loss of, or excessive appetite",
+    "expected_sections": [
+      "Stomach"
+    ],
+    "best_remedy": "SULPHUR"
+  },
+  {
+    "query_id": 358,
+    "query": "disinclined to converse with slightest labor seems a heavy task and great despondency about business",
+    "expected_sections": [
+      "Mind"
+    ],
+    "best_remedy": "KALIUM PHOSPHORICUM"
+  },
+  {
+    "query_id": 359,
+    "query": "five to ten drops, well diluted",
+    "expected_sections": [
+      "Dose"
+    ],
+    "best_remedy": "NITROMURIATICUM ACIDUM"
+  },
+  {
+    "query_id": 360,
+    "query": "frequent hawking with difficult swallowing",
+    "expected_sections": [
+      "Throat"
+    ],
+    "best_remedy": "VINCA MINOR"
+  },
+  {
+    "query_id": 361,
+    "query": "looking down with motion, open air",
+    "expected_sections": [
+      "Modalities"
+    ],
+    "best_remedy": "KALMIA LATIFOLIA"
+  },
+  {
+    "query_id": 362,
+    "query": "boring pains in nose with putrid smell from nose",
+    "expected_sections": [
+      "Nose"
+    ],
+    "best_remedy": "AURUM METALLICUM"
+  },
+  {
+    "query_id": 363,
+    "query": "relieved by stooping with pain in head when using eyes",
+    "expected_sections": [
+      "Head"
+    ],
+    "best_remedy": "CINA MARITIMA"
+  },
+  {
+    "query_id": 364,
+    "query": "will often abort a beginning suppurative process near the rectum with stools of cadaverous odor and diarrhœa of blood, slime, and reddish mucus",
+    "expected_sections": [
+      "Rectum"
+    ],
+    "best_remedy": "RHUS TOXICODENDRON"
+  },
+  {
+    "query_id": 365,
+    "query": "polygonum sagitatum-arrow- leaved with tear-thumb–– and polygonum persicaria",
+    "expected_sections": [
+      "Relationship"
+    ],
+    "best_remedy": "POLYGONUM HYDROPIPEROIDES"
+  },
+  {
+    "query_id": 366,
+    "query": "ovaritis in rheumatic patients, with irregular menstruation and dysmenorrhœa, and irritable bladder",
+    "expected_sections": [
+      "Female"
+    ],
+    "best_remedy": "GUAJACUM OFFICINALE"
+  },
+  {
+    "query_id": 367,
+    "query": "evening fever, skin hot and dry with sweat profuse and hot with the fever",
+    "expected_sections": [
+      "Fever"
+    ],
+    "best_remedy": "AESCULUS HIPPOCASTANUM"
+  },
+  {
+    "query_id": 368,
+    "query": "at menstrual period with from cold food",
+    "expected_sections": [
+      "Modalities"
+    ],
+    "best_remedy": "ARGENTUM NITRICUM"
+  },
+  {
+    "query_id": 369,
+    "query": "face very dark with depression and headache and delirium, convulsions, coma",
+    "expected_sections": [
+      "Head"
+    ],
+    "best_remedy": "T. N. T."
+  },
+  {
+    "query_id": 370,
+    "query": "catarrh, with copious, stringy, mucous discharges with cough with expectoration profuse, stringy, frothy, light-colored and constriction of lungs",
+    "expected_sections": [
+      "Respiratory"
+    ],
+    "best_remedy": "SILPHIUM LACINATUM"
+  },
+  {
+    "query_id": 371,
+    "query": "impossible to keep open",
+    "expected_sections": [
+      "Eyes"
+    ],
+    "best_remedy": "LOBELIA PURPURASCENS"
+  },
+  {
+    "query_id": 372,
+    "query": "hiccough, and craving for highly-seasoned food with flatulent dyspepsia and excessively bloated",
+    "expected_sections": [
+      "Stomach"
+    ],
+    "best_remedy": "NUX MOSCHATA"
+  },
+  {
+    "query_id": 373,
+    "query": "hiccough, with retching day and night with thirst for very cold drinks",
+    "expected_sections": [
+      "Stomach"
+    ],
+    "best_remedy": "MAGNESIUM PHOSPHORICUM"
+  },
+  {
+    "query_id": 374,
+    "query": "atonic dyspepsia with cannot eat bread or vegetables",
+    "expected_sections": [
+      "Stomach"
+    ],
+    "best_remedy": "HYDRASTIS CANADENSIS"
+  },
+  {
+    "query_id": 375,
+    "query": "hysteric convulsions with professional neuroses",
+    "expected_sections": [
+      "Extremities"
+    ],
+    "best_remedy": "GELSEMIUM SEMPERVIRENS"
+  },
+  {
+    "query_id": 376,
+    "query": "cannot bear sight or thought of meat with achlorhydria and fermentation of food",
+    "expected_sections": [
+      "Stomach"
+    ],
+    "best_remedy": "MURIATICUM ACIDUM"
+  },
+  {
+    "query_id": 377,
+    "query": "must have light and company with delusions about his identity",
+    "expected_sections": [
+      "Mind"
+    ],
+    "best_remedy": "STRAMONIUM"
+  },
+  {
+    "query_id": 378,
+    "query": "absent mindedness with clairaudient, hears voices far away or of the dead",
+    "expected_sections": [
+      "Mind"
+    ],
+    "best_remedy": "ANACARDIUM ORIENTALE"
+  },
+  {
+    "query_id": 379,
+    "query": "stitches in region of liver with old chronic liver troubles, with soreness and jaundice and dropsy",
+    "expected_sections": [
+      "Abdomen"
+    ],
+    "best_remedy": "KALIUM CARBONICUM"
+  },
+  {
+    "query_id": 380,
+    "query": "mouth and tongue feel scalded with heat and smarting in throat",
+    "expected_sections": [
+      "Throat"
+    ],
+    "best_remedy": "IRIS VERSICOLOR"
+  },
+  {
+    "query_id": 381,
+    "query": "gouty pain in all joints, especially finger-joints with cramps in calves",
+    "expected_sections": [
+      "Extremities"
+    ],
+    "best_remedy": "PINUS SILVESTRIS"
+  },
+  {
+    "query_id": 382,
+    "query": "laborious action with cannot go uphill and throbbing in the whole body to finger-tips",
+    "expected_sections": [
+      "Heart"
+    ],
+    "best_remedy": "GLONOINUM"
+  },
+  {
+    "query_id": 383,
+    "query": "has rather short action with tincture, to twelfth attenuation",
+    "expected_sections": [
+      "Dose"
+    ],
+    "best_remedy": "BAPTISIA TINCTORIA"
+  },
+  {
+    "query_id": 384,
+    "query": "sleeplessness due to worry and grief and sexual excess with restless sleep and somnambulism",
+    "expected_sections": [
+      "Sleep"
+    ],
+    "best_remedy": "KALIUM BROMATUM"
+  },
+  {
+    "query_id": 385,
+    "query": "deposits white sediment with urine colorless and urine milky and thick",
+    "expected_sections": [
+      "Urinary"
+    ],
+    "best_remedy": "STILLINGIA SILVATICA"
+  },
+  {
+    "query_id": 386,
+    "query": "caries of mastoid with chronic nasal catarrh, with yellow, offensive, corrosive discharge",
+    "expected_sections": [
+      "Nose"
+    ],
+    "best_remedy": "NITRICUM ACIDUM"
+  },
+  {
+    "query_id": 387,
+    "query": "extreme sensitiveness to noise with throbbing, buzzing, and ringing",
+    "expected_sections": [
+      "Ears"
+    ],
+    "best_remedy": "CANNABIS INDICA"
+  },
+  {
+    "query_id": 388,
+    "query": "old man's look with sunken, old, pale, and bluish and tight drawing of skin over bones",
+    "expected_sections": [
+      "Face"
+    ],
+    "best_remedy": "ARGENTUM NITRICUM"
+  },
+  {
+    "query_id": 389,
+    "query": "fermentation, much flatulence with persistent nausea, with anxiety and weakness and ravenous hunger",
+    "expected_sections": [
+      "Stomach"
+    ],
+    "best_remedy": "PLATINUM METALLICUM"
+  },
+  {
+    "query_id": 390,
+    "query": "peevish, forgetful with after grief and vexation and always wants to go somewhere",
+    "expected_sections": [
+      "Mind"
+    ],
+    "best_remedy": "CALCAREA PHOSPHORICA"
+  },
+  {
+    "query_id": 391,
+    "query": "stupid delirium with chilly every evening",
+    "expected_sections": [
+      "Fever"
+    ],
+    "best_remedy": "PHOSPHORUS"
+  },
+  {
+    "query_id": 392,
+    "query": "prolapse of womb with dysmenorrhœa and sensation of swelling of labia and of clitoris",
+    "expected_sections": [
+      "Female"
+    ],
+    "best_remedy": "COLLINSONIA CANADENSIS"
+  },
+  {
+    "query_id": 393,
+    "query": "tincture ten to twenty drop doses, preferably in hot water",
+    "expected_sections": [
+      "Dose"
+    ],
+    "best_remedy": "AVENA SATIVA"
+  },
+  {
+    "query_id": 394,
+    "query": "acrid and corroding, shreddy, tenacious with pruritus vulvæ, with profuse leucorrhœa",
+    "expected_sections": [
+      "Female"
+    ],
+    "best_remedy": "HYDRASTIS CANADENSIS"
+  },
+  {
+    "query_id": 395,
+    "query": "tongue dry and brown with during heat, urticaria and intermittent",
+    "expected_sections": [
+      "Fever"
+    ],
+    "best_remedy": "RHUS TOXICODENDRON"
+  },
+  {
+    "query_id": 396,
+    "query": "knee-joints feel sprained with vesicular eruptions on feet",
+    "expected_sections": [
+      "Extremities"
+    ],
+    "best_remedy": "ELAPS CORALLINUS"
+  },
+  {
+    "query_id": 397,
+    "query": "albuminous, dark, scanty with dark, bloody urine",
+    "expected_sections": [
+      "Urinary"
+    ],
+    "best_remedy": "CROTALUS HORRIDUS"
+  },
+  {
+    "query_id": 398,
+    "query": "tissues bloated with atony of capillary and venous system",
+    "expected_sections": [
+      "Skin"
+    ],
+    "best_remedy": "FLUORICUM ACIDUM"
+  },
+  {
+    "query_id": 399,
+    "query": "skin relatives: grindelia",
+    "expected_sections": [
+      "Relationship"
+    ],
+    "best_remedy": "CYPRIPEDIUM PUBESCENS"
+  },
+  {
+    "query_id": 400,
+    "query": "tired feeling with head feels too full and great irritability",
+    "expected_sections": [
+      "Head"
+    ],
+    "best_remedy": "CHININUM ARSENICOSUM"
+  },
+  {
+    "query_id": 401,
+    "query": "humea elegans, similar skin symptoms",
+    "expected_sections": [
+      "Relationship"
+    ],
+    "best_remedy": "PRIMULA OBCONICA"
+  },
+  {
+    "query_id": 402,
+    "query": "syphilitic sore throat with acute tonsillitis",
+    "expected_sections": [
+      "Throat"
+    ],
+    "best_remedy": "GUAJACUM OFFICINALE"
+  },
+  {
+    "query_id": 403,
+    "query": "fetid breath, depraved appetite with grinding of teeth",
+    "expected_sections": [
+      "Mouth"
+    ],
+    "best_remedy": "SANTONINUM"
+  },
+  {
+    "query_id": 404,
+    "query": "sensitive to cold water with abscess at root of teeth",
+    "expected_sections": [
+      "Mouth"
+    ],
+    "best_remedy": "SILICEA TERRA"
+  },
+  {
+    "query_id": 405,
+    "query": "slight noises unbearable with sanguine temperament",
+    "expected_sections": [
+      "Mind"
+    ],
+    "best_remedy": "FERRUM METALLICUM"
+  },
+  {
+    "query_id": 406,
+    "query": "desire for brandy and other strong drink with after eating, pulsation all over, especially abdomen and hiccough and eructations after smoking",
+    "expected_sections": [
+      "Stomach"
+    ],
+    "best_remedy": "SELENIUM METALLICUM"
+  },
+  {
+    "query_id": 407,
+    "query": "pronounced sleeplessness with dreams of serious nature while asleep",
+    "expected_sections": [
+      "Sleep"
+    ],
+    "best_remedy": "BUTYRICUM ACIDUM"
+  },
+  {
+    "query_id": 408,
+    "query": "pains and buzzing",
+    "expected_sections": [
+      "Ears"
+    ],
+    "best_remedy": "ANTIPYRINUM"
+  },
+  {
+    "query_id": 409,
+    "query": "sphincter seems relaxed with stools slip from anus, like lumps of jelly, mushy",
+    "expected_sections": [
+      "Rectum"
+    ],
+    "best_remedy": "OXYTROPIS LAMBERTI"
+  },
+  {
+    "query_id": 410,
+    "query": "numb feeling about spine with pain along ulnar nerve",
+    "expected_sections": [
+      "Extremities"
+    ],
+    "best_remedy": "OXYTROPIS LAMBERTI"
+  },
+  {
+    "query_id": 411,
+    "query": "backache, as if in a vise when sitting with icy coldness between shoulders and bruised pain in coccyx when sitting",
+    "expected_sections": [
+      "Back"
+    ],
+    "best_remedy": "AMMONIUM MURIATICUM"
+  },
+  {
+    "query_id": 412,
+    "query": "parotid glands swollen with periodical quinsy",
+    "expected_sections": [
+      "Throat"
+    ],
+    "best_remedy": "SILICEA TERRA"
+  },
+  {
+    "query_id": 413,
+    "query": "spasm, forcing bending forward with suffocating fits",
+    "expected_sections": [
+      "Chest"
+    ],
+    "best_remedy": "HYOSCYAMUS NIGER"
+  },
+  {
+    "query_id": 414,
+    "query": "heat and swelling of left testicle",
+    "expected_sections": [
+      "Male"
+    ],
+    "best_remedy": "OCIMUM CANUM"
+  },
+  {
+    "query_id": 415,
+    "query": "flushes of heat in chest rising to head with stitches, with heart feeling too large and palpitating pleuritic exudations and chest feels heavy",
+    "expected_sections": [
+      "Respiratory"
+    ],
+    "best_remedy": "SULPHUR"
+  },
+  {
+    "query_id": 416,
+    "query": "desire for coitus with any touch on body excites a voluptuous sensation",
+    "expected_sections": [
+      "Female"
+    ],
+    "best_remedy": "STRYCHNINUM PURUM"
+  },
+  {
+    "query_id": 417,
+    "query": "pressure in abdomen, especially on stooping forward with diarrhœa in eruptive diseases and cholera morbus",
+    "expected_sections": [
+      "Abdomen"
+    ],
+    "best_remedy": "ANTIMONIUM TARTARICUM"
+  },
+  {
+    "query_id": 418,
+    "query": "burning red rash with formication in various parts and pimples, acne, blood-boils",
+    "expected_sections": [
+      "Skin"
+    ],
+    "best_remedy": "PHOSPHORICUM ACIDUM"
+  },
+  {
+    "query_id": 419,
+    "query": "much green discharge with coryza in one nostril",
+    "expected_sections": [
+      "Nose"
+    ],
+    "best_remedy": "CALENDULA OFFICINALIS"
+  },
+  {
+    "query_id": 420,
+    "query": "whooping-cough with sensation of dust not relieved by cough and loose, rattling",
+    "expected_sections": [
+      "Respiratory"
+    ],
+    "best_remedy": "CHELIDONIUM MAJUS"
+  },
+  {
+    "query_id": 421,
+    "query": "stoppage of right nostril with coryza, with corrosive soreness of nose and bleeding from nose relieving the chest",
+    "expected_sections": [
+      "Nose"
+    ],
+    "best_remedy": "BROMIUM"
+  },
+  {
+    "query_id": 422,
+    "query": "palpitation, with fainting spells, especially during climacteric with irregular beats and constricted feeling causing palpitation, with anxiety",
+    "expected_sections": [
+      "Heart"
+    ],
+    "best_remedy": "LACHESIS MUTUS"
+  },
+  {
+    "query_id": 423,
+    "query": "catarrhal hoarseness, with scraping in throat with shallow respiration",
+    "expected_sections": [
+      "Respiratory"
+    ],
+    "best_remedy": "NUX VOMICA"
+  },
+  {
+    "query_id": 424,
+    "query": "pains suddenly shift to different parts with griping, cutting in hypogastric region, with intermittent cutting in stomach and small intestines and appear in remote localities, as fingers and toes",
+    "expected_sections": [
+      "Abdomen"
+    ],
+    "best_remedy": "DIOSCOREA VILLOSA"
+  },
+  {
+    "query_id": 425,
+    "query": "feel drawn backward with granular lids and red and raw appearance",
+    "expected_sections": [
+      "Eyes"
+    ],
+    "best_remedy": "CROTON TIGLIUM"
+  },
+  {
+    "query_id": 426,
+    "query": "eructation after drinking with inexpressible pain in stomach and water is vomited as soon as it reaches the stomach",
+    "expected_sections": [
+      "Stomach"
+    ],
+    "best_remedy": "BISMUTHUM SUBNITRICUM"
+  },
+  {
+    "query_id": 427,
+    "query": "summer or hot weather remedy",
+    "expected_sections": [
+      "Modalities"
+    ],
+    "best_remedy": "PICRICUM ACIDUM"
+  },
+  {
+    "query_id": 428,
+    "query": "sick headache radiating from one point with sleepless and restless and cold damp feeling at back of head",
+    "expected_sections": [
+      "Head"
+    ],
+    "best_remedy": "THEA CHINENSIS"
+  },
+  {
+    "query_id": 429,
+    "query": "power of speech lost but intelligence intact with speech difficult and ulcer of tongue, with indurated edges",
+    "expected_sections": [
+      "Tongue"
+    ],
+    "best_remedy": "KALIUM CYANATUM"
+  },
+  {
+    "query_id": 430,
+    "query": "sore with nausea with pharynx dark, swollen, glazed",
+    "expected_sections": [
+      "Throat"
+    ],
+    "best_remedy": "ARAGALLUS LAMBERTI"
+  },
+  {
+    "query_id": 431,
+    "query": "partial sweats with fever with sweat",
+    "expected_sections": [
+      "Fever"
+    ],
+    "best_remedy": "CALCAREA CARBONICA"
+  },
+  {
+    "query_id": 432,
+    "query": "much mucus in throat in the morning with excessive expectoration and dry at night",
+    "expected_sections": [
+      "Respiratory"
+    ],
+    "best_remedy": "GALLICUM ACIDUM"
+  },
+  {
+    "query_id": 433,
+    "query": "carcinoma, helps the persistent vomiting with coffee ground vomiting",
+    "expected_sections": [
+      "Stomach"
+    ],
+    "best_remedy": "CADMIUM SULPHURATUM"
+  },
+  {
+    "query_id": 434,
+    "query": "pain in back and limbs, as if beaten with boring pain between scapulæ",
+    "expected_sections": [
+      "Back"
+    ],
+    "best_remedy": "PHOSPHORICUM ACIDUM"
+  },
+  {
+    "query_id": 435,
+    "query": "slightest labor seems a heavy task with great despondency about business",
+    "expected_sections": [
+      "Mind"
+    ],
+    "best_remedy": "KALIUM PHOSPHORICUM"
+  },
+  {
+    "query_id": 436,
+    "query": "aura from a painful spot between shoulders with reflex spasms from worms",
+    "expected_sections": [
+      "Nerves"
+    ],
+    "best_remedy": "INDIGO TINCTORIA"
+  },
+  {
+    "query_id": 437,
+    "query": "paralytic symptoms with pain in limbs",
+    "expected_sections": [
+      "Extremities"
+    ],
+    "best_remedy": "ABSINTHIUM"
+  },
+  {
+    "query_id": 438,
+    "query": "flow of prostatic fluid with nocturnal sweat of genitals",
+    "expected_sections": [
+      "Male"
+    ],
+    "best_remedy": "BELLADONNA"
+  },
+  {
+    "query_id": 439,
+    "query": "hemoralopia, day blindness, can hardly see her way after sunrise with blindness from hæmorrhage into retina",
+    "expected_sections": [
+      "Eyes"
+    ],
+    "best_remedy": "BOTHROPS LANCEOLATUS"
+  },
+  {
+    "query_id": 440,
+    "query": "unable to control muscular action with walked like a drunken man",
+    "expected_sections": [
+      "Extremities"
+    ],
+    "best_remedy": "RHAMNUS CALIFORNICA"
+  },
+  {
+    "query_id": 441,
+    "query": "hissing and ringing otalgia",
+    "expected_sections": [
+      "Ears"
+    ],
+    "best_remedy": "TEUCRIUM MARUM VERUM"
+  },
+  {
+    "query_id": 442,
+    "query": "first stage of peritonitis with stools watery, bloody, undigested and first stage of dysentery, with much blood in discharges",
+    "expected_sections": [
+      "Abdomen"
+    ],
+    "best_remedy": "FERRUM PHOSPHORICUM"
+  },
+  {
+    "query_id": 443,
+    "query": "sneezing with excessive running from nose and eyes, only in morning",
+    "expected_sections": [
+      "Head"
+    ],
+    "best_remedy": "AMMONIUM PHOSPHORICUM"
+  },
+  {
+    "query_id": 444,
+    "query": "acidity after every mouthful with sensation as if food turned like a corkscrew on swallowing",
+    "expected_sections": [
+      "Stomach"
+    ],
+    "best_remedy": "ELAPS CORALLINUS"
+  },
+  {
+    "query_id": 445,
+    "query": "muscular pain along lower margin of the shoulder-blade with tenderness of abdomen to pressure",
+    "expected_sections": [
+      "Chest"
+    ],
+    "best_remedy": "RANUNCULUS BULBOSUS"
+  },
+  {
+    "query_id": 446,
+    "query": "chilliness with thirst with icy coldness, with pains",
+    "expected_sections": [
+      "Fever"
+    ],
+    "best_remedy": "DULCAMARA"
+  },
+  {
+    "query_id": 447,
+    "query": "tired, heavy feeling all over body, especially limbs with cannot get warm",
+    "expected_sections": [
+      "Extremities"
+    ],
+    "best_remedy": "PICRICUM ACIDUM"
+  },
+  {
+    "query_id": 448,
+    "query": "colic, diarrhœa, extremely loose bowels with chronic intestinal catarrh and hæmorrhoids hot, painful, sore",
+    "expected_sections": [
+      "Abdomen"
+    ],
+    "best_remedy": "ZINGIBER OFFICINALE"
+  },
+  {
+    "query_id": 449,
+    "query": "200th in sensitive patients with third to thirtieth potency",
+    "expected_sections": [
+      "Dose"
+    ],
+    "best_remedy": "KREOSOTUM"
+  },
+  {
+    "query_id": 450,
+    "query": "eructation after drinking with must bend backwards",
+    "expected_sections": [
+      "Stomach"
+    ],
+    "best_remedy": "BISMUTHUM SUBNITRICUM"
+  },
+  {
+    "query_id": 451,
+    "query": "stitchy ulcerative pain on left side of stomach, below short ribs with colic, with much flatulent distention",
+    "expected_sections": [
+      "Abdomen"
+    ],
+    "best_remedy": "ARGENTUM NITRICUM"
+  },
+  {
+    "query_id": 452,
+    "query": "back feels as if in a vise with violent spasms",
+    "expected_sections": [
+      "Back and Extremities"
+    ],
+    "best_remedy": "AETHUSA CYNAPIUM"
+  },
+  {
+    "query_id": 453,
+    "query": "paralytic drawing in right arm, especially wrist, and extending to fingers",
+    "expected_sections": [
+      "Extremities"
+    ],
+    "best_remedy": "RHUS VENENATA"
+  },
+  {
+    "query_id": 454,
+    "query": "suffused, dilated eyes with photophobia and thin, copious, ichorous, bloody nasal discharge",
+    "expected_sections": [
+      "Head"
+    ],
+    "best_remedy": "AILANTHUS GLANDULOSA"
+  },
+  {
+    "query_id": 455,
+    "query": "pain and pressure in maxillæ with pressive pain in temples and fullness in right temple and upper jaw",
+    "expected_sections": [
+      "Head"
+    ],
+    "best_remedy": "ASTRAGALUS MOLLISSIMUS"
+  },
+  {
+    "query_id": 456,
+    "query": "ulceration of gums with taste putrid or bitter and foul breath in girls at puberty",
+    "expected_sections": [
+      "Mouth"
+    ],
+    "best_remedy": "AURUM METALLICUM"
+  },
+  {
+    "query_id": 457,
+    "query": "burning and heat in skin with livid spots all over body and limbs and putrid ulcers with stupor, low delirium and prostration",
+    "expected_sections": [
+      "Skin"
+    ],
+    "best_remedy": "BAPTISIA TINCTORIA"
+  },
+  {
+    "query_id": 458,
+    "query": "pressure in neck of bladder after urinating with painful closure",
+    "expected_sections": [
+      "Urinary"
+    ],
+    "best_remedy": "RUTA GRAVEOLENS"
+  },
+  {
+    "query_id": 459,
+    "query": "irritability of the ciliary muscle with eyes easily tire from slightest use and irritation from electric or other artificial light",
+    "expected_sections": [
+      "Eyes"
+    ],
+    "best_remedy": "JABORANDI"
+  },
+  {
+    "query_id": 460,
+    "query": "anxiety in region of heart with sound of heart become weaker, pulse of low tension",
+    "expected_sections": [
+      "Heart"
+    ],
+    "best_remedy": "COLCHICUM AUTUMNALE"
+  },
+  {
+    "query_id": 461,
+    "query": "œdematous mucous membranes with ulceration with very sensitive and and end of nose very much inflamed externally",
+    "expected_sections": [
+      "Nose"
+    ],
+    "best_remedy": "EUPHORBIA LATHYRIS"
+  },
+  {
+    "query_id": 462,
+    "query": "in damp and wet weather with penetrating sounds",
+    "expected_sections": [
+      "Modalities"
+    ],
+    "best_remedy": "ASARUM EUROPAEUM"
+  },
+  {
+    "query_id": 463,
+    "query": "no appetite but for sweets with peppery sensation in mouth and tympanitic distention of abdomen",
+    "expected_sections": [
+      "Stomach"
+    ],
+    "best_remedy": "COCA"
+  },
+  {
+    "query_id": 464,
+    "query": "neuralgia on left side with parts so tender he cannot chew",
+    "expected_sections": [
+      "Face"
+    ],
+    "best_remedy": "HELLEBORUS NIGER"
+  },
+  {
+    "query_id": 465,
+    "query": "mucous membrane wrinkled with chronic nasal catarrh, with fetid odor and greenish crusts",
+    "expected_sections": [
+      "Nose"
+    ],
+    "best_remedy": "ELAPS CORALLINUS"
+  },
+  {
+    "query_id": 466,
+    "query": "sensation of heat-bubbling and boiling around heart region rising to head",
+    "expected_sections": [
+      "Chest"
+    ],
+    "best_remedy": "LACHNANTHES TINCTORIA"
+  },
+  {
+    "query_id": 467,
+    "query": "sniffles of infants with nose dry and obstructed and millar's asthma",
+    "expected_sections": [
+      "Respiratory"
+    ],
+    "best_remedy": "SAMBUCUS NIGRA"
+  },
+  {
+    "query_id": 468,
+    "query": "intolerable itching when getting warm in bed with chapped and dry tettery",
+    "expected_sections": [
+      "Skin"
+    ],
+    "best_remedy": "ALUMINA"
+  },
+  {
+    "query_id": 469,
+    "query": "thirtieth potency",
+    "expected_sections": [
+      "Dose"
+    ],
+    "best_remedy": "ANTHRACINUM"
+  },
+  {
+    "query_id": 470,
+    "query": "hears best on a train, and distant sounds",
+    "expected_sections": [
+      "Ears"
+    ],
+    "best_remedy": "CALENDULA OFFICINALIS"
+  },
+  {
+    "query_id": 471,
+    "query": "menorrhagia pressing, throbbing between periods with rush of blood to head with simple and pernicious anæmia and chlorosis and ferrum aceticum",
+    "expected_sections": [
+      "Relationship"
+    ],
+    "best_remedy": "FERRUM METALLICUM"
+  },
+  {
+    "query_id": 472,
+    "query": "breathing irregular, difficult with desire to take a deep breath and deep sighing",
+    "expected_sections": [
+      "Respiratory"
+    ],
+    "best_remedy": "DIGITALIS PURPUREA"
+  },
+  {
+    "query_id": 473,
+    "query": "cold, pale, blue, livid with cannot bear to be covered",
+    "expected_sections": [
+      "Skin"
+    ],
+    "best_remedy": "CAMPHORA"
+  },
+  {
+    "query_id": 474,
+    "query": "spasms provoked by slightest touch and attempt to move with tetanic convulsions and opisthotonos and violent jerking, twitching, and trembling",
+    "expected_sections": [
+      "Extremities"
+    ],
+    "best_remedy": "STRYCHNINUM PURUM"
+  },
+  {
+    "query_id": 475,
+    "query": "seems to come between cepa and euphrasia, which compare",
+    "expected_sections": [
+      "Relationship"
+    ],
+    "best_remedy": "JUSTICIA ADHATODA"
+  },
+  {
+    "query_id": 476,
+    "query": "dullness, with pressure and weakness of eyes with pain in temples and bursting pain in forehead",
+    "expected_sections": [
+      "Head"
+    ],
+    "best_remedy": "SENEGA"
+  },
+  {
+    "query_id": 477,
+    "query": "dirty brownish with white coating of tongue, with red edges",
+    "expected_sections": [
+      "Mouth"
+    ],
+    "best_remedy": "ECHINACEA ANGUSTIFOLIA"
+  },
+  {
+    "query_id": 478,
+    "query": "redness around anus with intolerable pain and black stools",
+    "expected_sections": [
+      "Rectum"
+    ],
+    "best_remedy": "MERCURIUS CYANATUS"
+  },
+  {
+    "query_id": 479,
+    "query": "fistulous tracks after mammary abscess with stitching pain in mammæ and weeps before menses",
+    "expected_sections": [
+      "Female"
+    ],
+    "best_remedy": "PHOSPHORUS"
+  },
+  {
+    "query_id": 480,
+    "query": "constipation, with frequent ineffectual urging, incomplete and unsatisfactory with stools relieve pains for a time and alternate constipation and diarrhœa-after abuse of purgatives",
+    "expected_sections": [
+      "Stool"
+    ],
+    "best_remedy": "NUX VOMICA"
+  },
+  {
+    "query_id": 481,
+    "query": "taste bitter with aversion to warm drinks",
+    "expected_sections": [
+      "Stomach"
+    ],
+    "best_remedy": "CHAMOMILLA"
+  },
+  {
+    "query_id": 482,
+    "query": "bladder paralyzed with has no will to urinate and involuntary micturition",
+    "expected_sections": [
+      "Urinary"
+    ],
+    "best_remedy": "HYOSCYAMUS NIGER"
+  },
+  {
+    "query_id": 483,
+    "query": "violent ache as if top of head would come off-eyes felt as if pushed out",
+    "expected_sections": [
+      "Head"
+    ],
+    "best_remedy": "PASSIFLORA INCARNATA"
+  },
+  {
+    "query_id": 484,
+    "query": "feels confused and empty with sudden glimmering before eyes",
+    "expected_sections": [
+      "Head"
+    ],
+    "best_remedy": "ZINGIBER OFFICINALE"
+  },
+  {
+    "query_id": 485,
+    "query": "mucous asthma with œdema of lungs",
+    "expected_sections": [
+      "Respiratory"
+    ],
+    "best_remedy": "COCHLEARIA ARMORACIA"
+  },
+  {
+    "query_id": 486,
+    "query": "bad effects from inhaling foul odors with ulceration, sloughing and intolerable burning",
+    "expected_sections": [
+      "Tissues"
+    ],
+    "best_remedy": "ANTHRACINUM"
+  },
+  {
+    "query_id": 487,
+    "query": "eruption around and pimples within with difficult hearing and buzzing",
+    "expected_sections": [
+      "Ears"
+    ],
+    "best_remedy": "KREOSOTUM"
+  },
+  {
+    "query_id": 488,
+    "query": "sick headache, with deathly nausea with tight feeling as from a band",
+    "expected_sections": [
+      "Head"
+    ],
+    "best_remedy": "TABACUM"
+  },
+  {
+    "query_id": 489,
+    "query": "teeth covered with sordes with gums sore, bleeding",
+    "expected_sections": [
+      "Mouth"
+    ],
+    "best_remedy": "ALUMINA"
+  },
+  {
+    "query_id": 490,
+    "query": "papular and pustular lesions with most useful in early stages of cutaneous diseases",
+    "expected_sections": [
+      "Skin"
+    ],
+    "best_remedy": "PHYTOLACCA DECANDRA"
+  },
+  {
+    "query_id": 491,
+    "query": "sore throat with stitches between acts of swallowing",
+    "expected_sections": [
+      "Throat"
+    ],
+    "best_remedy": "IGNATIA AMARA"
+  },
+  {
+    "query_id": 492,
+    "query": "diabetes, with impotency",
+    "expected_sections": [
+      "Male"
+    ],
+    "best_remedy": "COCA"
+  },
+  {
+    "query_id": 493,
+    "query": "vertigo on rising, turning head quickly or lying down with scalp feels tight and eyes dilated",
+    "expected_sections": [
+      "Head"
+    ],
+    "best_remedy": "ADONIS VERNALIS"
+  },
+  {
+    "query_id": 494,
+    "query": "whooping-cough, with excessive secretion of mucus with loose, rattling cough",
+    "expected_sections": [
+      "Respiratory"
+    ],
+    "best_remedy": "DULCAMARA"
+  },
+  {
+    "query_id": 495,
+    "query": "loquacity and delirium from eating acid fruits with depression of spirits",
+    "expected_sections": [
+      "Mind"
+    ],
+    "best_remedy": "PODOPHYLLINUM"
+  },
+  {
+    "query_id": 496,
+    "query": "gagging or empty retching with vomiting of hot, frothy mucus and hot, sour belching",
+    "expected_sections": [
+      "Stomach"
+    ],
+    "best_remedy": "PODOPHYLLINUM"
+  },
+  {
+    "query_id": 497,
+    "query": "internally, third to sixth potency with locally, as a cerate, 4-8 grains to the ounce, of vaseline and used externally",
+    "expected_sections": [
+      "Dose"
+    ],
+    "best_remedy": "CHRYSAROBINUM"
+  },
+  {
+    "query_id": 498,
+    "query": "sensation of bubbles bursting in bowels with evacuation difficult and liver enlarged and indurated",
+    "expected_sections": [
+      "Abdomen"
+    ],
+    "best_remedy": "TARAXACUM OFFICINALE"
+  },
+  {
+    "query_id": 499,
+    "query": "pure yeast cake or potencies from 3rd to high with yeast poultices are much used in skin diseases, boils and swelling",
+    "expected_sections": [
+      "Dose"
+    ],
+    "best_remedy": "TORULA CEREVISIAE"
+  },
+  {
+    "query_id": 500,
+    "query": "in cancer 1-2 drams fluid extract with tincture, to third potency",
+    "expected_sections": [
+      "Dose"
+    ],
+    "best_remedy": "TARAXACUM OFFICINALE"
+  }
+]
