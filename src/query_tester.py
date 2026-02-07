@@ -1,9 +1,31 @@
 from src.config import K_RERANKING, K_RETRIEVAL
+from src.keyword_search import BM25VectorDB
 from src.reranker import rerank
 from src.semantic_search import semantic_search
 
 
-def query_phase():
+def query_phase_keyword():
+    bm25 = BM25VectorDB()
+
+    QUESTIONS = [
+        "I have severe throat pain while swallowing, swollen glands and a dark red throat",
+        "My urine burns and looks abnormal, and I have pain in my lower back",
+        "I have sudden early-morning diarrhea that comes out in a hot, watery rush",
+        "There is tremor, nervous weakness and back pain after illness"
+    ]
+    for q in QUESTIONS:
+        print("\n====================================")
+        print("QUERY:", q)
+        print("====================================")
+
+        results = bm25.search(q, k=5)
+
+        for i, r in enumerate(results, 1):
+            print(f"\n#{i}")
+            print("Medicine:", r["medicine"])
+            print("Text:", r["text"][:200], "...")
+
+def query_phase_semantic():
     QUESTIONS = [
         "I have severe throat pain while swallowing, swollen glands and a dark red throat",
         "My urine burns and looks abnormal, and I have pain in my lower back",
