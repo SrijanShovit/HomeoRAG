@@ -1,7 +1,19 @@
 import os
 os.environ["TOKENIZERS_PARALLELISM"] = "false"
-import nltk
 import streamlit as st
+
+# -------------------------------
+# Download NLTK
+# -------------------------------
+@st.cache_resource
+def init_nltk():
+    import nltk
+    nltk.download("punkt")
+    nltk.download("stopwords")
+
+init_nltk()
+
+
 from src.rrf_retrieval.init_retrievers import init_all_retrievers
 from src.rrf_retrieval.retrieval_pipeline import retrieve_with_rrf
 from src.config import K_RERANKING
@@ -17,13 +29,6 @@ st.set_page_config(
 # -------------------------------
 # Preload retrievers
 # -------------------------------
-@st.cache_resource
-def init_nltk():
-    nltk.download("punkt")
-    nltk.download("stopwords")
-
-init_nltk()
-
 @st.cache_resource(show_spinner=True)
 def load_retrievers():
     """Initialize all retrievers once at app startup."""
