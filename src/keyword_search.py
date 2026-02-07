@@ -1,8 +1,7 @@
 from langchain_community.retrievers import BM25Retriever
-from src.config import BM25_DOCS_PATH, BM25_USE_NLTK
+from src.config import BM25_DOCS_PATH
 import pickle
-import nltk
-from nltk.tokenize import word_tokenize
+
 
 _BM25 = None
 
@@ -18,19 +17,7 @@ class BM25VectorDB:
         with open(BM25_DOCS_PATH, "rb") as f:
             self.documents = pickle.load(f)
 
-        kwargs = {}
-
-        # ---- Tokenizer (optional) ----
-        if BM25_USE_NLTK and word_tokenize:
-            kwargs["preprocess_func"] = word_tokenize
-
-        # ---- Build retriever ----
-        self.retriever = BM25Retriever.from_documents(self.documents, **kwargs)
-
-        print(
-            f"BM25 loaded | "
-            f"tokenizer={'nltk' if BM25_USE_NLTK else 'default'}"
-        )
+        self.retriever = BM25Retriever.from_documents(self.documents)
 
     def search(self, query, k):
         docs = self.retriever.invoke(query, k=k)

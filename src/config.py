@@ -91,8 +91,3 @@ RRF_RETRIEVAL_K = 40           # per-model retrieval depth
 
 ACTIVE_RRF_MODELS = ["pubmed_chroma", "e5_chroma","bm25_word_tokenize"]
 
-# ----------------------------------------------------
-#           BM25 Settings
-# ----------------------------------------------------
-# Tokenization
-BM25_USE_NLTK = True

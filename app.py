@@ -2,21 +2,6 @@ import os
 import streamlit as st
 
 os.environ["TOKENIZERS_PARALLELISM"] = "false"
-nltk_data_dir = "/tmp/nltk_data"
-os.environ["NLTK_DATA"] = nltk_data_dir
-
-# -------------------------------
-# Download NLTK
-# -------------------------------
-@st.cache_resource
-def init_nltk():
-    import nltk
-    nltk.download("punkt",download_dir=nltk_data_dir, quiet=True)
-    nltk.download("stopwords",download_dir=nltk_data_dir, quiet=True)
-
-init_nltk()
-
-
 from src.rrf_retrieval.init_retrievers import init_all_retrievers
 from src.rrf_retrieval.retrieval_pipeline import retrieve_with_rrf
 from src.config import K_RERANKING
