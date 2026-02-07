@@ -2,7 +2,7 @@ import json
 import re
 import numpy as np
 from src.config import K_RETRIEVAL,K_RERANKING, TEST_QUERIES_FINAL_DATA
-from src.keyword_search import BM25VectorDB, get_bm25
+from src.keyword_search import get_bm25
 from src.reranker import rerank
 from src.rrf_retrieval.retrieval_pipeline import retrieve_with_rrf
 from src.semantic_search import semantic_search

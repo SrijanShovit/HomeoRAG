@@ -75,7 +75,7 @@ CHUNK_OVERLAP = 128
 # ----------------------------------------------------
 
 K_RETRIEVAL = 30
-K_RERANKING = 10
+K_RERANKING = 5
 
 RERANKER_MODEL = "cross-encoder/ms-marco-MiniLM-L-6-v2"
 
@@ -88,3 +88,10 @@ RRF_K0 = 60                    # RRF smoothing constant
 RRF_RETRIEVAL_K = 40           # per-model retrieval depth
 
 ACTIVE_RRF_MODELS = ["pubmed_chroma", "e5_chroma","minilm_chroma","bge_chroma"]
+
+
+# ----------------------------------------------------
+#           BM25 Settings
+# ----------------------------------------------------
+# Tokenization
+BM25_USE_NLTK = True
