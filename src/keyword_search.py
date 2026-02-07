@@ -1,6 +1,7 @@
 from langchain_community.retrievers import BM25Retriever
 from src.config import BM25_DOCS_PATH, BM25_USE_NLTK
 import pickle
+import nltk
 from nltk.tokenize import word_tokenize
 
 _BM25 = None
