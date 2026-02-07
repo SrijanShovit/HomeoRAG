@@ -1,3 +1,6 @@
+import os
+os.environ["TOKENIZERS_PARALLELISM"] = "false"
+
 import streamlit as st
 from src.rrf_retrieval.init_retrievers import init_all_retrievers
 from src.rrf_retrieval.retrieval_pipeline import retrieve_with_rrf
@@ -48,7 +51,7 @@ query = st.text_input(
 # -------------------------------
 if st.button("Search") and query.strip():
     with st.spinner("Running RRF retrieval..."):
-        results = retrieve_with_rrf(query, loaded_retrievers,K_RERANKING)
+        results = retrieve_with_rrf(query=query, loaded_retrievers=loaded_retrievers,reranking_k=K_RERANKING)
 
     st.success(f"Retrieved {len(results)} chunks")
 

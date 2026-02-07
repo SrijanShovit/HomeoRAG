@@ -4,6 +4,7 @@ import numpy as np
 from src.config import K_RETRIEVAL,K_RERANKING, TEST_QUERIES_FINAL_DATA
 from src.keyword_search import get_bm25
 from src.reranker import rerank
+from src.rrf_retrieval.init_retrievers import init_all_retrievers
 from src.rrf_retrieval.retrieval_pipeline import retrieve_with_rrf
 from src.semantic_search import semantic_search
 
@@ -14,6 +15,11 @@ from src.semantic_search import semantic_search
 def load_test_queries(path=TEST_QUERIES_FINAL_DATA):
     with open(path, "r", encoding="utf-8") as f:
         return json.load(f)
+    
+# ------------------------------
+# Retriever Loading
+# ------------------------------
+loaded_retrievers = init_all_retrievers()
 
 
 # ------------------------------
@@ -153,7 +159,7 @@ def evaluate_query_set_rrf(USE_RERANKING: bool = True):
         # -------------------------
         num_candidates_to_retrive = K_RERANKING * 5
         print(f"Retrieving {num_candidates_to_retrive} docs after RRF from all retrievers")
-        candidates = retrieve_with_rrf(query, num_candidates_to_retrive)
+        candidates = retrieve_with_rrf(query=query, reranking_k=num_candidates_to_retrive,loaded_retrievers=loaded_retrievers)
 
         # -------------------------
         # Optional re-ranking
