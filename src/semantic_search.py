@@ -1,15 +1,57 @@
 from langchain_chroma import Chroma
 from langchain_huggingface import HuggingFaceEmbeddings
-from src.config import PUBMED_BERT_MS_MARCO_CHROMA_PATH, PUBMED_BERT_MS_MARCO_EMBEDDING_MODEL,K_RETRIEVAL
+
+from src.config import (
+        # MS Marco
+        PUBMED_BERT_MS_MARCO_CHROMA_1024_256_PATH, 
+        PUBMED_BERT_MS_MARCO_EMBEDDING_MODEL,
+        
+        # All MiniLM
+        SENTENCE_TF_ALL_MINILM_EMBEDDING_MODEL,
+        SENTENCE_TF_ALL_MINILM_CHROMA_800_120_PATH,
+        SENTENCE_TF_ALL_MINILM_CHROMA_768_128_PATH,
+        
+        # BAAI BGE
+        BAAI_BGE_SMALL_EN_EMBEDDING_MODEL,
+        BAAI_BGE_SMALL_EN_768_128_PATH,
+
+        #BioBERT
+        BIOBERT_768_128_PATH,
+        BIOBERT_EMBEDDING_MODEL,
+
+        #SapBERT
+        SAPBERT_EMBEDDING_MODEL,
+        SAPBERT_768_128_PATH,
+
+        #BioMed PubMedBERT
+        BIOMED_NLP_PUBMEDBERT_768_128_PATH,
+        BIOMED_NLP_PUBMEDBERT_EMBEDDING_MODEL,
+
+        #InFloat e5
+        E5_BASE_768_128_PATH,
+        E5_BASE_EMBEDDING_MODEL,
+
+
+        K_RETRIEVAL
+    )
 import time
 
 
+_EMBEDDINGS = None
+_DB = None
+
 def get_db():
-    embeddings = HuggingFaceEmbeddings(model_name=PUBMED_BERT_MS_MARCO_EMBEDDING_MODEL)
-    return Chroma(
-        persist_directory=str(PUBMED_BERT_MS_MARCO_CHROMA_PATH),
-        embedding_function=embeddings
-    )
+    global _EMBEDDINGS, _DB
+    if _DB is None:
+        print("Loading embedding model once...")
+        _EMBEDDINGS = HuggingFaceEmbeddings(
+            model_name=E5_BASE_EMBEDDING_MODEL
+        )
+        _DB = Chroma(
+            persist_directory=str(E5_BASE_768_128_PATH),
+            embedding_function=_EMBEDDINGS
+        )
+    return _DB
 
 
 def semantic_search(query: str, k: int = K_RETRIEVAL):

@@ -101,7 +101,7 @@ def evaluate_query(reranked_results, test_item):
 # ------------------------------
 # Full benchmark
 # ------------------------------
-def evaluate_query_set():
+def evaluate_query_set(USE_RERANKING:bool=True):
     test_set = load_test_queries(path="data/test_queries_final.json")
     rows = []
 
@@ -109,9 +109,17 @@ def evaluate_query_set():
         question = item["query"]
 
         dense = semantic_search(question, k=K_RETRIEVAL)
-        reranked = rerank(question, dense["results"], top_k=K_RERANKING)["results"]
 
-        result = evaluate_query(reranked, item)
+        if USE_RERANKING:
+            final_results = rerank(
+                question,
+                dense["results"],
+                top_k=K_RERANKING
+            )["results"]
+        else:
+            final_results = dense["results"][:K_RERANKING]
+
+        result = evaluate_query(final_results, item)
         print(result)
         rows.append(result)
 
