@@ -15,8 +15,8 @@ if __name__ == "__main__":
     # query_phase_semantic()
     # evaluate_query_set(USE_RERANKING=True)
 
-    # evaluate_query_set_rrf(USE_RERANKING=True)
+    evaluate_query_set_rrf(USE_RERANKING=True)
 
     # build_bm25_docs()
     # query_phase_keyword()
-    evaluate_query_set_bm25()
+    # evaluate_query_set_bm25()

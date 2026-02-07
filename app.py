@@ -1,4 +1,5 @@
 import streamlit as st
+from src.rrf_retrieval.init_retrievers import init_all_retrievers
 from src.rrf_retrieval.retrieval_pipeline import retrieve_with_rrf
 from src.config import K_RERANKING
 
@@ -9,6 +10,21 @@ st.set_page_config(
     page_title="HomeoRAG – RRF Retrieval",
     layout="wide"
 )
+
+# -------------------------------
+# Preload retrievers
+# -------------------------------
+@st.cache_resource(show_spinner=True)
+def load_retrievers():
+    """Initialize all retrievers once at app startup."""
+    return init_all_retrievers()
+
+loaded_retrievers = load_retrievers()
+
+
+# -------------------------------
+# UI
+# -------------------------------
 
 st.title("🔬 HomeoRAG – RRF Retrieval Explorer")
 
@@ -27,14 +43,12 @@ query = st.text_input(
     placeholder="e.g. burning stomach pain with sour vomiting"
 )
 
-top_k = st.slider("Number of chunks to show", 3, 15, K_RERANKING)
-
 # -------------------------------
 # Search
 # -------------------------------
 if st.button("Search") and query.strip():
     with st.spinner("Running RRF retrieval..."):
-        results = retrieve_with_rrf(query, top_k)
+        results = retrieve_with_rrf(query, loaded_retrievers,K_RERANKING)
 
     st.success(f"Retrieved {len(results)} chunks")
 

@@ -34,6 +34,8 @@ class BM25VectorDB:
     def search(self, query, k):
         docs = self.retriever.invoke(query, k=k)
 
+        # print(f"  -> BM25 retriever used. Requested k={k}, returned {len(docs)} docs")
+
         results = []
         for rank, doc in enumerate(docs):
             results.append({

@@ -87,8 +87,9 @@ RERANKER_MODEL = "cross-encoder/ms-marco-MiniLM-L-6-v2"
 RRF_K0 = 60                    # RRF smoothing constant
 RRF_RETRIEVAL_K = 40           # per-model retrieval depth
 
-ACTIVE_RRF_MODELS = ["pubmed_chroma", "e5_chroma","minilm_chroma","bge_chroma"]
+# ACTIVE_RRF_MODELS = ["pubmed_chroma", "e5_chroma","minilm_chroma","bge_chroma","bm25_word_tokenize"]
 
+ACTIVE_RRF_MODELS = ["pubmed_chroma", "e5_chroma","bm25_word_tokenize"]
 
 # ----------------------------------------------------
 #           BM25 Settings

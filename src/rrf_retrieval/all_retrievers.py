@@ -1,3 +1,4 @@
+from src.keyword_search import get_bm25
 from src.vector_dbs.chroma_vector_dbs import ChromaVectorDB
 from src.config import (
     E5_BASE_EMBEDDING_MODEL,E5_BASE_768_128_PATH,
@@ -21,11 +22,14 @@ bge_chroma = ChromaVectorDB(BAAI_BGE_SMALL_EN_EMBEDDING_MODEL,
 e5_chroma = ChromaVectorDB(E5_BASE_EMBEDDING_MODEL,
               E5_BASE_768_128_PATH)
 
+bm25_word_tokenize = get_bm25()
+
 RETRIEVER_POOL = {
     "pubmed_chroma": pubmed_chroma,
     "minilm_chroma": minilm_chroma,
     "bge_chroma": bge_chroma,
-    "e5_chroma": e5_chroma
+    "e5_chroma": e5_chroma,
+    "bm25_word_tokenize": bm25_word_tokenize
 }
 
 
