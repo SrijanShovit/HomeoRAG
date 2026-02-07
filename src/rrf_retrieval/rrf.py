@@ -25,11 +25,11 @@ def reciprocal_rank_fusion(model_results):
     # ----------------------------
     unique_docs = len(scores)
 
-    print(
-        f"[RRF] Inputs: {total_inputs}  |  "
-        f"Unique after merge: {unique_docs}  |  "
-        f"Duplicates removed: {total_inputs - unique_docs}"
-    )
+    # print(
+    #     f"[RRF] Inputs: {total_inputs}  |  "
+    #     f"Unique after merge: {unique_docs}  |  "
+    #     f"Duplicates removed: {total_inputs - unique_docs}"
+    # )
 
     # ----------------------------
     # Build fused list
