@@ -1,6 +1,9 @@
 import os
-os.environ["TOKENIZERS_PARALLELISM"] = "false"
 import streamlit as st
+
+os.environ["TOKENIZERS_PARALLELISM"] = "false"
+nltk_data_dir = "/tmp/nltk_data"
+os.environ["NLTK_DATA"] = nltk_data_dir
 
 # -------------------------------
 # Download NLTK
@@ -8,8 +11,8 @@ import streamlit as st
 @st.cache_resource
 def init_nltk():
     import nltk
-    nltk.download("punkt")
-    nltk.download("stopwords")
+    nltk.download("punkt",download_dir=nltk_data_dir, quiet=True)
+    nltk.download("stopwords",download_dir=nltk_data_dir, quiet=True)
 
 init_nltk()
 
