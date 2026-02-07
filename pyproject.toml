@@ -15,5 +15,7 @@ dependencies = [
     "langchain-ollama>=1.0.1",
     "langchain-text-splitters>=1.1.0",
     "python-dotenv>=1.2.1",
+    "rank-bm25>=0.2.2",
     "sentence-transformers>=5.2.0",
+    "streamlit>=1.54.0",
 ]

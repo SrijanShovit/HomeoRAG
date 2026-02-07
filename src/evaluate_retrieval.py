@@ -1,15 +1,17 @@
 import json
 import re
 import numpy as np
-from src.config import K_RETRIEVAL,K_RERANKING
+from src.config import K_RETRIEVAL,K_RERANKING, TEST_QUERIES_FINAL_DATA
+from src.keyword_search import BM25VectorDB, get_bm25
 from src.reranker import rerank
+from src.rrf_retrieval.retrieval_pipeline import retrieve_with_rrf
 from src.semantic_search import semantic_search
 
 
 # ------------------------------
 # Data loading
 # ------------------------------
-def load_test_queries(path="data/query_test_set.json"):
+def load_test_queries(path=TEST_QUERIES_FINAL_DATA):
     with open(path, "r", encoding="utf-8") as f:
         return json.load(f)
 
@@ -98,11 +100,11 @@ def evaluate_query(reranked_results, test_item):
     }
 
 
-# ------------------------------
-# Full benchmark
-# ------------------------------
+# ------------------------------------------------------------
+# Full benchmark One Embedding Model Semantic Search + Re-rank
+# ------------------------------------------------------------
 def evaluate_query_set(USE_RERANKING:bool=True):
-    test_set = load_test_queries(path="data/test_queries_final.json")
+    test_set = load_test_queries(path=TEST_QUERIES_FINAL_DATA)
     rows = []
 
     for item in test_set[:100]:
@@ -133,3 +135,93 @@ def evaluate_query_set(USE_RERANKING:bool=True):
     print("\nFINAL METRICS")
     print(metrics)
     return metrics
+
+
+
+# ------------------------------------------------------------
+# Full benchmark: RRF retrieval + optional re-ranking
+# ------------------------------------------------------------
+def evaluate_query_set_rrf(USE_RERANKING: bool = True):
+    test_set = load_test_queries(path=TEST_QUERIES_FINAL_DATA)
+    rows = []
+
+    for item in test_set[:100]:
+        query = item["query"]
+
+        # -------------------------
+        # RRF multi-model retrieval
+        # -------------------------
+        num_candidates_to_retrive = K_RERANKING * 5
+        print(f"Retrieving {num_candidates_to_retrive} docs after RRF from all retrievers")
+        candidates = retrieve_with_rrf(query, num_candidates_to_retrive)
+
+        # -------------------------
+        # Optional re-ranking
+        # -------------------------
+        if USE_RERANKING:
+            final_results = rerank(
+                query,
+                candidates,
+                top_k=K_RERANKING
+            )["results"]
+        else:
+            final_results = candidates[:K_RERANKING]
+
+        # -------------------------
+        # Evaluation
+        # -------------------------
+        result = evaluate_query(final_results, item)
+        print(result)
+        rows.append(result)
+
+    # -------------------------
+    # Aggregate metrics
+    # -------------------------
+    metrics = {
+        f"Recall@{K_RERANKING}": np.mean(
+            [r[f"section_hit@{K_RERANKING}"] for r in rows]
+        ),
+        f"RemedyHit@{K_RERANKING}": np.mean(
+            [r[f"remedy_hit@{K_RERANKING}"] for r in rows]
+        ),
+        "MRR": calc_mrr(rows),
+        f"NDCG@{K_RERANKING}": np.mean(
+            [r[f"ndcg@{K_RERANKING}"] for r in rows]
+        ),
+    }
+
+    print("\nFINAL RRF METRICS")
+    print(metrics)
+    return metrics
+
+
+
+# ------------------------------------------------------------
+# Full benchmark: BM25 only
+# ------------------------------------------------------------
+def evaluate_query_set_bm25():
+    test_set = load_test_queries(path=TEST_QUERIES_FINAL_DATA)
+    rows = []
+
+    bm25 = get_bm25()
+
+    for item in test_set[:100]:
+        question = item["query"]
+
+        keyword_results = bm25.search(question, k=K_RERANKING)
+
+        result = evaluate_query(keyword_results, item)
+        print(result)
+        rows.append(result)
+
+    metrics = {
+        f"Recall@{K_RERANKING}": np.mean([r[f"section_hit@{K_RERANKING}"] for r in rows]),
+        f"RemedyHit@{K_RERANKING}": np.mean([r[f"remedy_hit@{K_RERANKING}"] for r in rows]),
+        "MRR": calc_mrr(rows),
+        f"NDCG@{K_RERANKING}": np.mean([r[f"ndcg@{K_RERANKING}"] for r in rows]),
+    }
+
+    print("\nBM25 FINAL METRICS")
+    print(metrics)
+    return metrics
+

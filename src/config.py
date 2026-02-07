@@ -1,5 +1,7 @@
 
 DATA_PATH = "data/boericke_materia_medica.txt"
+BM25_DOCS_PATH = "data/bm25_docs.pkl"
+TEST_QUERIES_FINAL_DATA = "data/test_queries_final.json"
 
 # ----------------------------------------------------
 #           Sentence Transformers All MiniLM L6 v2
@@ -72,7 +74,17 @@ CHUNK_OVERLAP = 128
 #           Retrieval & Ranking Settings
 # ----------------------------------------------------
 
-K_RETRIEVAL = 40
-K_RERANKING = 5
+K_RETRIEVAL = 30
+K_RERANKING = 10
 
 RERANKER_MODEL = "cross-encoder/ms-marco-MiniLM-L-6-v2"
+
+
+# ----------------------------------------------------
+#           RRF Settings
+# ----------------------------------------------------
+
+RRF_K0 = 60                    # RRF smoothing constant
+RRF_RETRIEVAL_K = 40           # per-model retrieval depth
+
+ACTIVE_RRF_MODELS = ["pubmed_chroma", "e5_chroma","minilm_chroma","bge_chroma"]
