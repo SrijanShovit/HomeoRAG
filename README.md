@@ -17,7 +17,7 @@
 
 ## Embeddings & Vector DB
 ### Choice of Embedding Models
-![Choice of Embedding Models](assets/Recursive_Chunking.jpg)
+![Choice of Embedding Models](assets/Embedding_Models_choice.jpg)
 
 ### Chunk Storage
 ![Chunk Storage Methods](assets/chunk_storage.jpg)
