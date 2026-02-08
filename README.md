@@ -3,12 +3,24 @@
 ![Logo](assets/logo.png)
 
 ## PDF Parsing
+
 ![PDF Parsing](assets/PDF_Parsing.jpg)
 
+## PDF Processing Pipeline
+
+- **PDF input** → loaded using **PDFPlumber**
+- **Page text extracted** from each page
+- **Cover and index pages removed**
+- **Headers and footers stripped** to avoid noise
+- **Appendix pages removed** using **dot-density heuristics**
+- Remaining text with remedy name, synonyms and their texts saved in text file
+  
 ---
 
 ## Chunking
+
 ### Chunk Formation
+
 ![Chunk Formation](assets/Text_to_Chunks.jpg)
 
 ## Why HomeoRAG Uses **Remedy-Level Documents**
@@ -19,6 +31,7 @@
 - It enables **clean evaluation and explainability** (Recall, RemedyHit, citations all map to one medicine).
 
 ### If remedies were mixed:
+
 - Chunks would contain **symptoms from multiple medicines**
 - Wrong remedies would be boosted
 - RRF and reranking would become noisy
@@ -33,6 +46,7 @@
 For each Materia Medica remedy document, **HomeoRAG uses LangChain’s Recursive Character Text Splitter**.
 
 This method was selected because it provides a strong **baseline trade-off between semantic coherence, computational cost, and retrieval performance**. It ensures that chunks are:
+
 - Large enough to preserve medical context  
 - Small enough for efficient embedding and retrieval  
 - Deterministic and reproducible  
@@ -57,6 +71,7 @@ This allows HomeoRAG to rely on **RRF and reranking** for semantic alignment rat
 ### Design Rationale
 
 Recursive chunking was chosen because it is **stable, fast, and cost-free**, while semantic relevance is handled later by:
+
 - Multiple embedding models  
 - Reciprocal Rank Fusion (RRF)  
 - Reranking  
@@ -66,6 +81,7 @@ Among all alternatives, **Regex + Metadata Chunking** is the most promising futu
 ---
 
 ### Chunk Sizes & Overlap
+
 ![Recursive Chunking](assets/Recursive_Chunking.jpg)
 
 768-128 chunking size-overlap was chosen based on results from ablation test, cosnidering information representation-no of chunks tradeoff.
@@ -73,6 +89,7 @@ Among all alternatives, **Regex + Metadata Chunking** is the most promising futu
 **Conclusion:** These are large enough to preserve multi-symptom relationships, but small enough for embeddings and BM25 to stay focused.
 
 ---
+
 ### Chunk ID
 
 ![Chunk ID](assets/Unique_Chunk_ID.jpg)
@@ -88,7 +105,9 @@ To prevent duplicate chunks from being stored in the vector database, HomeoRAG u
 ---
 
 ## Embeddings & Vector DB
+
 ### Choice of Embedding Models
+
 ![Choice of Embedding Models](assets/Embedding_Models_choice.jpg)
 
 ### Embedding Models Considered in HomeoRAG
@@ -111,6 +130,7 @@ All models are **open-source**, hosted on **Hugging Face**, and lightweight enou
 ### Why These Models Were Selected
 
 HomeoRAG must handle:
+
 - **Layperson symptom descriptions**
 - **Clinical and biomedical terminology**
 - **Materia Medica style phrasing**
@@ -118,17 +138,18 @@ HomeoRAG must handle:
 This mix requires embeddings that span **general language understanding**, **biomedical semantics**, and **retrieval-optimized representations**.  
 The models above collectively cover all three.
 
-
 ---
 
 ### Why Multiple Domains Were Needed
 
 HomeoRAG queries mix:
+
 - **Laypeman symptom language**
 - **Clinical terms**
 - **Materia Medica style phrasing**
 
 Using both **general retrieval models** and **biomedical-trained models** ensures the system captures:
+
 - Natural language symptoms  
 - Medical terminology  
 - Literature-style remedy descriptions  
@@ -138,20 +159,27 @@ This diversity is later unified through **RRF and reranking**, allowing each mod
 ---
 
 ### Chunk Storage
+
 ![Chunk Storage Methods](assets/chunk_storage.jpg)
 
 ### Chunks Vector Storage
+
 ![Vector Storage](assets/Vector_Storage.jpg)
 
 ## Retrieval Architectures
+
 ### Semantic Search with 1 Embedding Model
+
 #### Naive Semantic Search with English Embedding Model
+
 ![Naive Semantic Search with English Embedding Model](assets/RetrievalArchs/Naive_Semantic_Retrieval.jpg)
 
 #### Naive Semantic Search with Domain Embedding Model
+
 ![Naive Semantic Search with Domain Embedding Model](assets/RetrievalArchs/Naive_Domain_Semantic_Retrieval.jpg)
 
---- 
+---
+
 ### Why Re-ranking is Needed
 
 Embedding-based top-K retrieval finds **semantically similar** chunks, but it does **not guarantee answer relevance**.  
@@ -197,42 +225,172 @@ This balances **speed, cost, and accuracy**.
 ### Why 20–40 is a Sweet Spot
 
 It is large enough to:
+
 - capture multiple relevant remedies and symptom variants  
 - give the re-ranker enough choice
 
 But small enough to:
+
 - keep re-ranking fast  
 - avoid noise overwhelming the model
 
 ---
 
 #### Re-ranked Semantic Search with English Embedding Model
+
 ![Re-ranked Semantic Search with English Embedding Model](assets/RetrievalArchs/Reranked_Semantic_Retrieval.jpg)
 
 #### Re-ranked Semantic Search with Domain Embedding Model
+
 ![Re-ranked Semantic Search with Domain Embedding Model](assets/RetrievalArchs/Reranked_Domain_Semantic_Retrieval.jpg)
 
+---
+
 ### Keyword Search
+
+BM25 was added as a **lexical retriever** to complement dense embeddings and improve recall on symptom-heavy medical text.
+
+#### Why it works well for Materia Medica queries**
+
+- Homeopathic queries often contain **rare, specific, or archaic terms** (e.g., *leucorrhœa, pudenda, stitching pains*).  
+  BM25 matches these **exact tokens**, while embeddings may smooth or ignore them.
+- Remedies are distinguished by **precise wording**, not just meaning.  
+  BM25 preserves this precision.
+- It performs well when users write **long, descriptive symptom lists**, where keyword overlap is highly informative.
+
+#### Impact
+
+In HomeoRAG, BM25 often retrieves the **correct remedy text directly in the top results**, sometimes outperforming pure semantic search on these highly technical and term-dense queries.
+
+BM25 therefore serves as a **strong recall anchor**, ensuring critical symptom terms are not missed before reranking and fusion.
+
+#### Limitations
+
+- **No semantic understanding**  
+  BM25 cannot detect synonyms or paraphrases (e.g., *“burning pain”* vs *“scalding sensation”*).
+
+- **Vocabulary mismatch**  
+  If a user uses different wording than the source text, BM25 may fail to match.
+
+- **Overweights frequent terms**  
+  Common words inside a remedy can dominate scoring even if they are not clinically decisive.
+
+- **No context awareness**  
+  It treats terms independently and does not model relationships between symptoms.
+
+Because of this, BM25 works best as a **high-precision lexical filter** that must be combined with semantic retrieval and reranking.
+
 #### BM25 Search LangChain Default
+
 ![BM25 Search LangChain Default](assets/RetrievalArchs/LangChain_Def_BM25_Retrieval.jpg)
 
 #### BM25 Search LangChain Tokenizer
+
+Naive word splitting only separates on spaces and keeps punctuation attached to words, creating noisy tokens.
+
+NLTK `word_tokenize` produces clean, linguistically correct tokens, which improves:
+
+- BM25 keyword matching  
+- Embedding quality  
+- Reranker accuracy  
+  
 ![BM25 Search LangChain Tokenizer](assets/RetrievalArchs/Custom_Tokenizer_LangChain_BM25_Retrieval.jpg)
 
+---
 
 ### RRF (Semantic & Hybrid)
+
+HomeoRAG uses **Reciprocal Rank Fusion (RRF)** to combine results from multiple retrieval models into a single, more reliable ranking.
+
+#### Why RRF was needed
+
+Different retrievers capture different aspects of a query:
+
+- **Dense embeddings** (BGE, E5, PubMedBERT, etc.) capture semantic similarity  
+- **BM25** captures exact symptom and keyword matches  
+
+Each of these models retrieves **partially correct but incomplete** results. RRF merges their ranked outputs so that remedies appearing consistently across models are promoted to the top.
+
+#### Benefits for HomeoRAG
+
+RRF provides:
+
+- **Higher recall** for rare and nuanced symptom descriptions  
+- **Better robustness** when one model misses relevant remedies  
+- **Reduced bias** toward any single embedding model  
+
+This is especially important for homeopathy, where queries mix **medical language, symptom phrasing, and old Materia Medica terminology**.
+
+RRF allows HomeoRAG to act as a **model-agnostic retrieval ensemble**, improving retrieval quality without increasing embedding cost.
+
+RRF assumes that **if multiple retrievers rank the same chunk highly, it is probably relevant**.  
+It does not trust raw similarity scores — it trusts **agreement between retrievers**.
+
+**Implication:**  
+
+- Strong retrievers reinforce each other  
+- Weak retrievers can still add noise, but only if they overlap with others  
+  
+---
 #### RRF Semantic Search
+
 ![RRF Semantic Search](assets/RetrievalArchs/RRF_Semantic_Retrieval.jpg)
 
 #### Re-ranked RRF Semantic Search
+
 ![Re-ranked RRF Semantic Search](assets/RetrievalArchs/Reranked_RRF_Semantic_Retrieval.jpg)
 
+---
+HomeoRAG combines **lexical and semantic retrieval** to avoid missing clinically important matches.
+
+- **BM25** captures exact symptom words (e.g., *burning*, *left-sided*).
+- **Embeddings** find semantic matches and paraphrases.
+- **RRF** merges all retrievers so strong signals from any model are kept.
+- **Reranker** selects the most relevant chunks from the top candidates.
+
+**Result:** higher recall than embeddings alone, and higher precision after reranking.
+---
 #### RRF Hybrid Search
 ![RRF Hybrid Search](assets/RetrievalArchs/RRF_Hybrid_Retrieval.jpg)
 
 #### Re-ranked RRF Hybrid Search
 ![Re-ranked RRF Hybrid Search](assets/RetrievalArchs/Reranked_RRF_Hybrid_Retrieval.jpg)
 
+---
+## Evaluation Query Set
+
+HomeoRAG uses a **synthetic evaluation dataset of 500 queries** generated by **Claude**.  
+Claude was given the Materia Medica text and, over **three reasoning and refinement turns**, created realistic patient-style questions along with their expected remedies and sections.
+
+For all experiments in this project, **only the first 100 queries** from this set are used for evaluation.
+
+
+Creating an evaluation set by self is a difficult, time-consuming and subjective task. Changes in evaluation set would affect metrics calculation methods as well as metrics results.
+| Evaluation Set Creation Method | Pros | Cons |
+|------------------|------|------|
+| **LLM-generated evaluation set** | • Large-scale and fast to generate<br>• Covers diverse symptom patterns<br>• Consistent labeling format | • Reflects the LLM’s interpretation of the source text<br>• May miss subtle clinical nuance<br>• Not a substitute for expert-curated datasets <br>• Depends highly on developer prompt |
+| **Manual (expert-curated) evaluation set** | • Clinically reliable<br>• Higher trust in correctness | • Very slow to produce<br>• Difficult to scale<br>• Hard to cover broad symptom space |
+
+---
+
+### Query format
+
+Each evaluation item has the following structure:
+
+```json
+{
+    "query_id": 240,
+    "query": "left pupil contracted with violent tearing pain in eyes with lachrymation worse in open air",
+    "expected_sections": [
+      "Eyes"
+    ],
+    "best_remedy": "COLCHICUM AUTUMNALE"
+  }
+```
+
+
+
+---
 ## Metrics
 # Retrieval Evaluation Metrics
 
@@ -269,19 +427,20 @@ But small enough to:
 
 
 **What this means**
+
 - The correct remedy is **usually found**
 - But it is **often not ranked #1**
 - The LLM may sometimes pick a **sub-optimal medicine**
 - Requires **reranking or better embeddings**
 
 ---
+
 ### ⚠️ High Retrieval — Weak Remedy Identification
 
 
 | Metric | Recall@5 |RemedyHit@5|MRR|NDCG@5|
 |--------|-------|----|---------|-------|
 | Value| 0.95 |0.65|0.91|0.93|
-
 
 **What this means**
 
@@ -293,15 +452,36 @@ But small enough to:
 
 ### ✅ Good / Production-Grade System
 
-
 | Metric | Recall@5 |RemedyHit@5|MRR|NDCG@5|
 |--------|-------|----|---------|-------|
 | Value| 0.98 |0.97|0.93|0.95|
 
-**What this means**
+### What this means
+
 - The right medicine is **almost always present**
 - It is **nearly always ranked at the top**
 - The LLM receives **high-signal context**
 - Suitable for **clinical-grade RAG pipelines**
 
+## Future Scope
 
+### LLM-Centric Evaluation 
+
+- Create LLM response evaluation dataset
+- Define metrics: accuracy, precision, recall, tone, user-friendliness and/or choice of framework
+- Run offline evaluations on 50–100 sample queries  
+- Observe effect of prompt versioning, choice of models, query modifications
+- Include **traceability** and **observability** (e.g., via LangGraph/Opik)
+
+### Chatbot Transformation
+
+- Add **short-term memory** for session context  
+- Include **long-term memory** for user-specific personalization  
+- Enable **multi-turn conversations** with coherent context  
+
+### Feedback & Observability Pipeline
+
+- Track **usage analytics** to monitor query patterns and system load.
+- Collect **indirect signals** (e.g., query reformulations, repeated queries) rather than relying solely on explicit feedback.
+- Detect retrieval or model **drift over time** using evaluation queries and internal metrics.
+- Schedule **periodic updates** to retrievers, re-rankers, or prompt strategies based on internal analysis, not raw user edits.
