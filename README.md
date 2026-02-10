@@ -1,6 +1,17 @@
-# HomeoRAG QnA Bot V1.7.2.2026
+# HomeoRAG QnA Bot V1.10.2.2026
 
 ![Logo](assets/logo.png)
+
+**HomeoRAG** is a question-answering assistant built for people who rely on **homeopathy** in their daily lives.
+Traditional homeopathic practice often requires searching through **dozens of pages across multiple materia medica and repertory books** just to find a possible remedy for a single case, which is slow and manual.
+
+This project was inspired by real-world use — watching a parent go through **large homeopathy books** to treat everyday problems such as **cuts, fevers, and childhood issues**. HomeoRAG brings that same knowledge into a **retrieval-augmented system**, allowing users to ask questions in natural language and receive **answers grounded in the original texts**.
+
+The core reference used in this project is ***Materia Medica by William Boericke***, whose structured descriptions of remedies form the backbone of the knowledge base.
+
+This is primarily a **fun, exploratory project**, not a business product. Its purpose is to demonstrate **how a full-stack RAG application can be built**, evaluated, and improved systematically — from data ingestion and retrieval to prompting, tracing, and evaluation — using a realistic and meaningful domain.
+
+
 
 ## PDF Parsing
 
