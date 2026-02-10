@@ -2,11 +2,11 @@ import os
 import time
 import streamlit as st
 
+from src.observability.search_pipeline_tracing import run_search_pipeline
+
 os.environ["TOKENIZERS_PARALLELISM"] = "false"
-from src.llm_response_generation import generate_llm_response_with_retrieved_context, normalize_llm_output
 from src.rrf_retrieval.init_retrievers import init_all_retrievers
-from src.rrf_retrieval.retrieval_pipeline import retrieve_with_rrf
-from src.config import K_RERANKING
+
 
 # -------------------------------
 # Page config
@@ -53,23 +53,12 @@ query = st.text_input(
 # -------------------------------
 if st.button("Search") and query.strip():
     with st.spinner("Running RRF retrieval..."):
-        results = retrieve_with_rrf(
-            query=query,
-            loaded_retrievers=loaded_retrievers,
-            reranking_k=K_RERANKING
-        )
-
-        llm_chain_response = generate_llm_response_with_retrieved_context(
-            user_query=query,
-            context_docs=results
-        )
+        results , answer_text = run_search_pipeline(query,loaded_retrievers)
 
     # -------------------------------
     # LLM RESPONSE (PRIMARY)
     # -------------------------------
     st.subheader("🧠 Homeopathic Analysis")
-
-    answer_text = normalize_llm_output(llm_chain_response)
 
     st.subheader("AI Answer")
     placeholder = st.empty()
@@ -95,3 +84,4 @@ if st.button("Search") and query.strip():
                 st.markdown("**Supporting Text:**")
                 st.write(doc.get("text", ""))
 
+   

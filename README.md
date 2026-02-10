@@ -164,6 +164,8 @@ This diversity is later unified through **RRF and reranking**, allowing each mod
 
 ### Chunks Vector Storage
 
+ChromaDB was chosen initially for prototyping convenience; however, in a production-grade HomeoRAG system, the vector database should be selected based on factors such as dataset size, query latency requirements, update frequency, memory footprint, scalability, and support for hybrid or metadata-based filtering.
+
 ![Vector Storage](assets/Vector_Storage.jpg)
 
 ## Retrieval Architectures
@@ -471,15 +473,69 @@ Each evaluation item has the following structure:
 - The LLM receives **high-signal context**
 - Suitable for **clinical-grade RAG pipelines**
 
+## LLM Response Generation
+
+Groq's open-source models `llama-3.3-70b-versatile` and `qwen/qwen3-32b`
+
+## LLM Response Observability & Evaluation
+
+LangSmith was chosen for this purpose.
+
+- Prompt Versioning: Tracking, comparing, and rolling back prompt changes to ensure controlled and reproducible model behavior.
+- Tracing: To view all runs traces in a tree manner.
+- Evaluators: Online evals within tracing.
+- Monitoring: Dahsboard & alerts for an overall at-scale picture of application's performance.
+- Annotation Queue: Collection of human feedback of the application.
+- Datasets & Experiments: Offline batch evaluation. Useful to test effect of a change before release to users.
+
+LangSmith Monitoring allows to set up alerts in case when no of runs exceed a number, when feedback scores fall below a desired scored, avg. latency drops below a particular number, trace error rate, cost or no of tokens exceed a threshold.
+
+Alerts can be setup via Webhook API calls or Pager Integration.
+
+### Prompt Versioning
+
+![Prompt Versioning](assets/observability/prompt_verisioning.png)
+
+### Tracebility
+
+![Traces](assets/observability/traces.png)
+
+![Single Trace Run](assets/observability/single_trace_run.png)
+
+![Single Trace Feedback](assets/observability/single_trace_fb.png)
+
+### Evaluation Metrics
+
+- Latency, Cost, Token Usage and % of Runs Successul are some metrics we can never compromise with.
+
+### Monitoring & Evals Comparison
+
+![Output Tokens Comparison](assets/observability/output_tokens.png)
+
+![LLM Latency Comparison](assets/observability/llm_latency.png)
+
+LLM-as-a-Judge is the most practically suited method for providing scores to LLM responses on various aspects in online method and keep updating the Monitoring system in real-time. 
+
+> As we don't know the query and corresponding retrived context and response, we have to rely on a dynamic and intelligent method rather than hard coded test cases.
+
+These were some of the metrics available by default in LangSmith, that I used:
+
+- Hallucination — Measures whether the answer includes unsupported or invented claims.
+- Answer Relevance — Measures how directly the answer addresses the user’s question.
+- Conciseness — Measures how efficiently the answer delivers only the required information.
+- Toxicity — Measures whether the language is harmful, hostile, or discouraging.
+- Overall Score — A weighted composite of Hallucination (40%), Relevance (30%), Conciseness (20%), and Toxicity (10%).
+
+### Metrics Comparison
+![Metrics Comparison](assets/observability/metrics_comparison.png)
+
+> Using these evaluation metrics, we can compare the performance of different models and prompt versions in a traceable and reproducible way. Instead of relying on gut feeling or anecdotal judgment, each change is measured quantitatively through evaluation scores. This transforms the system from a research-grade prototype into a production-grade pipeline, enabling systematic, data-driven improvement and accountable decision-making.
+> 
 ## Future Scope
 
-### LLM-Centric Evaluation 
+### LangGraph Flow Integration 
 
-- Create LLM response evaluation dataset
-- Define metrics: accuracy, precision, recall, tone, user-friendliness and/or choice of framework
-- Run offline evaluations on 50–100 sample queries  
-- Observe effect of prompt versioning, choice of models, query modifications
-- Include **traceability** and **observability** (e.g., via LangGraph/Opik)
+- Query transformation using small-sized LLM before providing it as input to retrievers and final response generator LLM
 
 ### Chatbot Transformation
 
@@ -490,6 +546,12 @@ Each evaluation item has the following structure:
 ### Feedback & Observability Pipeline
 
 - Track **usage analytics** to monitor query patterns and system load.
-- Collect **indirect signals** (e.g., query reformulations, repeated queries) rather than relying solely on explicit feedback.
-- Detect retrieval or model **drift over time** using evaluation queries and internal metrics.
+- Collect **indirect signals** (e.g., repeated queries) rather than relying solely on explicit feedback.
+- Detect retrieval, model or prompt **drift over time** using evaluation queries and internal metrics.
 - Schedule **periodic updates** to retrievers, re-rankers, or prompt strategies based on internal analysis, not raw user edits.
+
+
+  
+
+
+
