@@ -541,7 +541,15 @@ These were some of the metrics available by default in LangSmith, that I used:
 ![Metrics Comparison](assets/observability/metrics_comparison.png)
 
 > Using these evaluation metrics, we can compare the performance of different models and prompt versions in a traceable and reproducible way. Instead of relying on gut feeling or anecdotal judgment, each change is measured quantitatively through evaluation scores. This transforms the system from a research-grade prototype into a production-grade pipeline, enabling systematic, data-driven improvement and accountable decision-making.
-> 
+
+### Example Traces Shared
+
+| Model | Prompt Commit | Trace Link |
+|-------|----------------|------------|
+| llama-3.3-70b-versatile | `f0097b0b` | https://smith.langchain.com/public/4b0b275b-b148-42d4-b6a8-ce70ef58800e/r |
+| llama-3.3-70b-versatile | `5888df82` | https://smith.langchain.com/public/1b718cf3-8c55-42dc-a0e0-271cdd7f8915/r |
+| qwen/qwen3-32b | `5888df82` | https://smith.langchain.com/public/51ccb7b5-ca0f-425e-b548-176544fb5e72/r |
+
 ## Future Scope
 
 ### LangGraph Flow Integration 
