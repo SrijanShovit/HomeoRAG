@@ -484,6 +484,8 @@ Each evaluation item has the following structure:
 - The LLM receives **high-signal context**
 - Suitable for **clinical-grade RAG pipelines**
 
+[Ablation Study Results](https://docs.google.com/spreadsheets/d/1WX2clTDgxxNA79wWeEW2nPjMuUGW1ENPHeqKzd3B_ZY/edit?usp=sharing]
+
 ## LLM Response Generation
 
 Groq's open-source models `llama-3.3-70b-versatile` and `qwen/qwen3-32b`
